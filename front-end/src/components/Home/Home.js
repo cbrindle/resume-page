@@ -1,10 +1,29 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import bgImage from '../../images/main-bg.jpg'
 
 export default class Home extends Component {
     render() {
         return (
             <div style={styles.main}>
-                HOME PAGE
+                <div style={styles.centerArea}>
+                    <div style={styles.centerTop}>
+                        <p>Christopher Brindle</p>
+                    </div>
+                    <div style={styles.centerMiddle}>
+                        <p>129 New Street, Cranford, NJ 07016  <b>|</b>  (908) 514-7225  <b>|</b>  cbrindleusa@gmail.com</p>
+                    </div>
+                    <div style={styles.centerBottom}>
+                        <p>I learned early on in life that amateurs work at something until they get it right; professionals will work at it until they can't get it wrong.</p>
+
+                        <p>After spending 11 years in the United States Army as an Infantry Paratrooper, with combat deployments to  both Iraq and Afghanistan, I was looking to start a new chapter of my life. While earning my BA in Criminal Justice, I was able to maintain a 4.0 GPA and work part-time for TAG Heuer as an E-Learning Administrator / Data Analysis. I continued my education by enrolling in Code Immersives NYC, an 11 month Web Development program that teaches modern development techniques and standards of practice that go well beyond a typical, 12-week "boot-camp."</p>
+
+                        <p>What I love most about Web Development is the ability to solve problems in a creative, and almost artistic, manner. The sense of satisfaction one gets from being able to transform a basic concept into a full-fledged, tangible product is one that keeps me motivated and always looking to learn more.</p>
+
+                        <p>What I offer is a modern understanding of not only the core elements of Web Development but the importance of User Interface and Experience. Bottom line, if your product looks lack-luster or is difficult to navigate, no one will care how fancy your code is on the back-end. I always ask myself "Is this something I would want to use" when working on any project.</p>
+
+                        <p>To see more, please feel free to follow the link to my Github to have a look at what I'm working on, or email me anytime.</p>
+                    </div>
+                </div>
             </div>
         )
     }
@@ -13,9 +32,43 @@ export default class Home extends Component {
 
 const styles = {
     main: {
+        display: 'grid',
+        height: '100vh',
+        width: '85vw',
+        backgroundImage: `url(${bgImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'top center',
+        gridTemplateRows: '10% 85% 5%',
+        gridTemplateColumns: '10% 60% 30%'
+    },
+    centerArea: {
+        display: 'grid',
+        gridArea: '2 / 2 / span 1 / span 1',
+        gridTemplateRows: '20% 10% 70%',
+        gridTemplateColumns: '100%'
+    },
+    centerTop: {
+        display: 'flex',
+        gridArea: '1 / 1 / span 1 / span 1',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        fontSize: '3em'
+    },
+    centerMiddle: {
+        display: 'flex',
+        gridArea: '2 / 1 / span 1 / span 1',
+        alignItems: 'center',
+        justifyContent: 'center',
+        fontSize: '1.4em',
+        fontStyle: 'italic'
+    },
+    centerBottom: {
         display: 'flex',
         flexDirection: 'column',
-        height: '100vh',
-        width: '85vw'
+        gridArea: '3 / 1 / span 1 / span 1',
+        alignItems: 'center',
+        overflowY: 'scroll',
+        fontSize: '1.2em'
     }
 }
