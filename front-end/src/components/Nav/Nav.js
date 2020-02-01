@@ -26,7 +26,7 @@ const styles = {
         flexDirection: 'column',
         height: '100vh',
         width: '15vw',
-        background: 'linear-gradient(#b7ffb7, white)',
+        // background: 'linear-gradient(#B7C9DF, white)',
         gridTemplateColumns: '100%',
         gridTemplateRows: '20% 80%'
     },

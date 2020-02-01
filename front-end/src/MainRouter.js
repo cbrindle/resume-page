@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Nav from './components/Nav/Nav'
+import background from './images/main-bg3-mod.png';
 
 // import UserProfile from './components/UserProfile/UserProfile';
 // import PrivateRoute from './components/PrivateRoute/PrivateRoute';
@@ -28,5 +29,9 @@ export default class MainRouter extends Component {
 const styles = {
     main: {
         display: 'flex',
+        backgroundImage: `url(${background})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat'
     }
 }

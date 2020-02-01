@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import bgImage from '../../images/main-bg.jpg';
+
 
 export default class Home extends Component {
     render() {
@@ -36,10 +36,7 @@ const styles = {
         display: 'grid',
         height: '100vh',
         width: '85vw',
-        backgroundImage: `url(${bgImage})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'top center',
-        gridTemplateRows: '10% 85% 5%',
+        gridTemplateRows: '5% 85% 10%',
         gridTemplateColumns: '10% 60% 30%'
     },
     centerArea: {
