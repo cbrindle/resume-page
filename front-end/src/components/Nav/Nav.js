@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NavLinks from './NavLinks';
 import BrindleIcon from '../../images/brindle-icon.png';
 
+
 export default class Nav extends Component {
     render() {
         return (
@@ -25,7 +26,7 @@ const styles = {
         flexDirection: 'column',
         height: '100vh',
         width: '15vw',
-        backgroundColor: '#b7ffb7',
+        background: 'linear-gradient(#b7ffb7, white)',
         gridTemplateColumns: '100%',
         gridTemplateRows: '20% 80%'
     },
