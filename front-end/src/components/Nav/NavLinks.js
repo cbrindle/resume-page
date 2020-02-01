@@ -6,17 +6,17 @@ export default class NavLinks extends Component {
             <>
             <div style={styles.main}>
                 NavLinks
-                <br />
+                <br /><br /><br />
                     NavLinks
-                <br />
+                <br /><br /><br />
                     NavLinks
-                <br />
+                <br /><br /><br />
                     NavLinks
-                <br />
+                <br /><br /><br />
                     NavLinks
-                <br />
+                <br /><br /><br />
                     NavLinks
-                <br />
+                <br /><br /><br />
                     NavLinks
                 <br />
             </div>
