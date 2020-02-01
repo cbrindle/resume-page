@@ -10,6 +10,8 @@ export default class Nav extends Component {
             <div style={styles.main}>
                 <div style={styles.top}>
                     <img src={BrindleIcon} style={styles.icon} alt="Bitmoji of Christopher Brindle" />
+                    <br />
+                    Full-Stack Web Developer
                 </div>
                 <div style={styles.bottom}>
                     <NavLinks />
@@ -28,10 +30,11 @@ const styles = {
         width: '15vw',
         // background: 'linear-gradient(#B7C9DF, white)',
         gridTemplateColumns: '100%',
-        gridTemplateRows: '20% 80%'
+        gridTemplateRows: '30% 70%'
     },
     top: {
         display: 'flex',
+        flexDirection: 'column',
         gridArea: '1 / 1 / span 1 / span 1',
         alignItems: 'center',
         justifyContent: 'center'
@@ -40,7 +43,7 @@ const styles = {
         gridArea: '2 / 1 / span 1 / span 1'
     },
     icon: {
-        height: '100%',
-        width: '80%%'
+        height: '60%',
+        width: '40%%'
     }
 }
