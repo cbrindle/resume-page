@@ -29,7 +29,7 @@ export default class WorkExp extends Component {
         return (
             <div style={styles.main}>
                 <div style={styles.center}>
-                    <h1>Work Experience</h1>
+                    <h1 style={styles.title}>Work Experience</h1>
                     <br />
                     <h3 style={styles.jobClick} onClick={this.showJob}>Full-Stack Web Developer</h3>
                         {this.state.job === 'Full-Stack Web Developer' ?
@@ -85,6 +85,9 @@ const styles = {
         display: 'flex',
         gridArea: '1 / 3 / span 3 / span 1',
         alignItems: 'center'
+    },
+    title: {
+        fontSize: '3em'
     },
     jobClick: {
         cursor: 'pointer'
