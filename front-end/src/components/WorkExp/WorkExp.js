@@ -9,19 +9,18 @@ import brindleCoffee from '../../images/brindle-coffee.png';
 export default class WorkExp extends Component {
 
     state = {
-        job: ''
+        job: '',
+        freelance: false,
+        sis: false,
+        army: false,
+        tag: false
     }
 
     showJob = (event) => {
-        if (this.state.job === event.target.innerText) {
-            this.setState({
-                job: ''
-            })
-        } else {
-            this.setState({
-                job: event.target.innerText
-            })
-        }
+        const data = event.target.id;
+        this.setState({
+            [data]: !this.state[data]
+        })
     }
 
     render() {
@@ -31,29 +30,29 @@ export default class WorkExp extends Component {
                 <div style={styles.center}>
                     <h1 style={styles.title}>Work Experience</h1>
                     <br />
-                    <h3 style={styles.jobClick} onClick={this.showJob}>Full-Stack Web Developer</h3>
-                        {this.state.job === 'Full-Stack Web Developer' ?
+                    <h3 id="freelance" style={styles.jobClick} onClick={this.showJob}>Full-Stack Web Developer</h3>
+                        {this.state.freelance ?
                         <Freelance />
                         :
                         ''
                         }
                     
-                    <h3 style={styles.jobClick} onClick={this.showJob}>Security Operations Supervisor</h3>
-                        {this.state.job === 'Security Operations Supervisor' ?
+                    <h3 id="sis" style={styles.jobClick} onClick={this.showJob}>Security Operations Supervisor</h3>
+                        {this.state.sis ?
                         <SIS />
                         :
                         ''
                         }
 
-                    <h3 style={styles.jobClick} onClick={this.showJob}>Infantry Paratrooper</h3>
-                        {this.state.job === 'Infantry Paratrooper' ?
+                    <h3 id="army" style={styles.jobClick} onClick={this.showJob}>Infantry Paratrooper</h3>
+                        {this.state.army ?
                         <Army />
                         :
                         ''
                         }
 
-                    <h3 style={styles.jobClick} onClick={this.showJob}>E-Learning Administrator</h3>
-                        {this.state.job === 'E-Learning Administrator' ?
+                    <h3 id="tag" style={styles.jobClick} onClick={this.showJob}>E-Learning Administrator</h3>
+                        {this.state.tag ?
                         <TagHeuer />
                         :
                         ''
