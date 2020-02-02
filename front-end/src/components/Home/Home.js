@@ -79,7 +79,7 @@ const styles = {
         justifyContent: 'flex-end'
     },
     rightImg: {
-        height: '55%',
+        height: '50%',
         width: '85%'
     }
 }
