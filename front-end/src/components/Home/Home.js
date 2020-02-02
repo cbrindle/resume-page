@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import brindleHi from '../../images/brindle-hi.png';
 
 export default class Home extends Component {
     render() {
@@ -24,6 +24,9 @@ export default class Home extends Component {
 
                         <p>To see more, please feel free to follow the link to my Github to have a look at what I'm working on, or email me anytime.</p>
                     </div>
+                </div>
+                <div style={styles.rightArea}>
+                    <img src={brindleHi} alt='' style={styles.rightImg} />
                 </div>
             </div>
         )
@@ -68,5 +71,14 @@ const styles = {
         alignItems: 'center',
         overflowY: 'scroll',
         fontSize: '1.2em'
+    },
+    rightArea: {
+        display: 'flex',
+        gridArea: '1 / 3 / span 3 / span 1',
+        alignItems: 'center'
+    },
+    rightImg: {
+        height: '70%',
+        width: '100%'
     }
 }
