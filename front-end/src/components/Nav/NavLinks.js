@@ -11,7 +11,8 @@ export default class NavLinks extends Component {
                 <NavLink to='/work-experience' style={styles.hover}>Work Experience</NavLink>
                 <NavLink to='/education' style={styles.hover}>Education</NavLink>
                 <NavLink to='/coding' style={styles.hover}>Coding Stack / Techniques</NavLink>
-                <NavLink to='projects' style={styles.hover}>Projects</NavLink>
+                <NavLink to='/projects' style={styles.hover}>Projects</NavLink>
+                <NavLink to='/misc' style={styles.hover}>Misc</NavLink>
                 <NavLink to='/contact' style={styles.hover}>Contact</NavLink>
             </div>
             </>
