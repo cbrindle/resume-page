@@ -33,6 +33,7 @@ const styles = {
     hover: {
         cursor: 'pointer',
         color: 'black',
+        fontWeight: 'bold',
         textDecoration: 'none',
         padding: '10% 0 10% 0'
     }
