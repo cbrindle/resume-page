@@ -75,10 +75,11 @@ const styles = {
     rightArea: {
         display: 'flex',
         gridArea: '1 / 3 / span 3 / span 1',
-        alignItems: 'center'
+        alignItems: 'center',
+        justifyContent: 'flex-end'
     },
     rightImg: {
-        height: '70%',
-        width: '100%'
+        height: '55%',
+        width: '85%'
     }
 }
