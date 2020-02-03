@@ -17,9 +17,15 @@ export default class WorkExp extends Component {
     }
 
     showJob = (event) => {
-        const data = event.target.id;
+        const data = event.target.id
         this.setState({
             [data]: !this.state[data]
+        })
+    }
+
+    closeButton = (job) => {
+        this.setState({
+            [job]: !this.state[job]
         })
     }
 
@@ -32,7 +38,10 @@ export default class WorkExp extends Component {
                     <br />
                     <h2 id="freelance" style={styles.jobClick} onClick={this.showJob}>--- Full-Stack Web Developer ---</h2>
                         {this.state.freelance ?
-                        <Freelance />
+                        <Freelance
+                            closeButton={this.closeButton}
+                            id={"freelance"}
+                        />
                         :
                         ''
                         }

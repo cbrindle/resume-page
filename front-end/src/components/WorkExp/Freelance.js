@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 
 export default class Freelance extends Component {
+
+
     render() {
         return (
             <div style={styles.main}>
@@ -23,7 +25,7 @@ export default class Freelance extends Component {
                     </ul>
                 </div>
                 <div style={styles.buttonArea}>
-                    <p>TEST</p>
+                    <button style={styles.close} onClick={() => this.props.closeButton(this.props.id)}>Close</button>
                 </div>
             </div>
         )
@@ -38,7 +40,7 @@ const styles = {
         alignItems: 'center',
         gridTemplateRows: '20% 20% 50% 10%',
         gridTemplateColumns: '30% 70%',
-        backgroundImage: 'linear-gradient(to right, rgba(205, 205, 205, 1), rgba(205, 205, 205, 0.2))',
+        backgroundImage: 'linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.2))',
         borderRadius: '5px',
         border: '1px solid black',
     },
@@ -84,7 +86,18 @@ const styles = {
     },
     buttonArea: {
         display: 'flex',
-        gridArea: '4 / 1 / span 2 / span 1',
-        height: '100%'
+        gridArea: '4 / 1 / span 1 / span 2',
+        height: '100%',
+        width: '100%',
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderTop: '1px solid black'
+    },
+    close: {
+        width: '7vw',
+        height: '5vh',
+        border: '1px solid darkgray',
+        borderRadius: '3px',
+        fontSize: '0.9em'
     }
 }
