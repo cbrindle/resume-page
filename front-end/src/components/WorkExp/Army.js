@@ -18,8 +18,17 @@ export default class Army extends Component {
                     <p>Duties</p>
                 </div>
                 <div style={styles.dutiesRight}>
-                    <ul>
-                        <li>Duties Test</li>
+                    <ul style={{margin: 'auto'}}>
+                        <li>Trained, mentored, and professionally developed subordinates in combat operations, problem solving skills, and leadership styles.</li>
+                        <br />
+
+                        <li>Exercised sound judgment in the maneuvering and control of team members, successfully accomplishing over 200 combat missions in multiple theaters of operation.</li>
+                        <br />
+
+                        <li>Conducted reconnaissance, surveillance, and target acquisition as part of a three-man team responsible for the accurate and timely gathering of intelligence to support larger operations.</li>
+                        <br />
+
+                        <li>Reviewed, processed, and supervised accountability of financial, administrative, and personnel actions for up to 220 employees as a Company Operations Manager.</li>
                     </ul>
                 </div>
                 <div style={styles.buttonArea}>

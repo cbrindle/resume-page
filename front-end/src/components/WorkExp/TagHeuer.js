@@ -18,8 +18,14 @@ export default class TagHeuer extends Component {
                     <p>Duties</p>
                 </div>
                 <div style={styles.dutiesRight}>
-                    <ul>
-                        <li>Duties Test</li>
+                    <ul style={{margin: 'auto'}}>
+                        <li>Responsible for building and maintaining a user database for an online retail training platform that services the United States and Canada, containing over 7,000 users.</li>
+                        <br />
+
+                        <li>Provide prompt and effective trouble-shooting solutions to user-end issues with platform interaction and website interfacing.</li>
+                        <br />
+
+                        <li>Advise and assist management elements in the improvement of the training program by developing and implementing innovative procedures.</li>
                     </ul>
                 </div>
                 <div style={styles.buttonArea}>

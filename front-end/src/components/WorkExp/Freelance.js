@@ -20,8 +20,14 @@ export default class Freelance extends Component {
                     <p>Duties</p>
                 </div>
                 <div style={styles.dutiesRight}>
-                    <ul>
-                        <li>Duties Test</li>
+                    <ul style={{margin: 'auto'}}>
+                        <li>Utilizing MERN (MongoDB, Express.js, React, Node.js) stack, create pixel-perfect custom web pages and apps that are fully responsive to both desktop and mobile viewing.</li>
+                        <br />
+
+                        <li>Advanced level of knowledge and application of Javascript, HTML, and CSS.</li>
+                        <br />
+
+                        <li>Conducts meetings with clients to determine their web application needs, translate them into clean, modern, and visually appealing code, and maintain the product to optimize its effectiveness in the ever evolving field of technology.</li>
                     </ul>
                 </div>
                 <div style={styles.buttonArea}>
