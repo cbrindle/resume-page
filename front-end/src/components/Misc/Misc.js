@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import brindleMisc from '../../images/brindle-misc.png';
+
 
 export default class Misc extends Component {
     render() {
@@ -9,7 +11,7 @@ export default class Misc extends Component {
                 </div>
 
                 <div style={styles.imgArea}>
-                    {/* <img src={brindleCoding} style={styles.rightImg} alt="Bitmoji of Brindle at coding at a laptop" /> */}
+                    <img src={brindleMisc} style={styles.rightImg} alt="Bitmoji of Brindle at parachuting onto the web page" />
                 </div>
             </div>
         )
@@ -41,7 +43,6 @@ const styles = {
     },
     rightImg: {
         width: '75%',
-        height: '40%',
-        margin: '0 3% 0 0'
+        height: '40%'
     }
 }
