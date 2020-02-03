@@ -10,7 +10,7 @@ export default class WorkExp extends Component {
 
     state = {
         job: '',
-        freelance: false,
+        freelance: true,
         sis: false,
         army: false,
         tag: false
@@ -24,34 +24,34 @@ export default class WorkExp extends Component {
     }
 
     render() {
-        const showMe = true
         return (
+            <>
             <div style={styles.main}>
                 <div style={styles.center}>
                     <h1 style={styles.title}>Work Experience</h1>
                     <br />
-                    <h3 id="freelance" style={styles.jobClick} onClick={this.showJob}>Full-Stack Web Developer</h3>
+                    <h2 id="freelance" style={styles.jobClick} onClick={this.showJob}>--- Full-Stack Web Developer ---</h2>
                         {this.state.freelance ?
                         <Freelance />
                         :
                         ''
                         }
                     
-                    <h3 id="sis" style={styles.jobClick} onClick={this.showJob}>Security Operations Supervisor</h3>
+                    <h2 id="sis" style={styles.jobClick} onClick={this.showJob}>--- Security Operations Supervisor ---</h2>
                         {this.state.sis ?
                         <SIS />
                         :
                         ''
                         }
 
-                    <h3 id="army" style={styles.jobClick} onClick={this.showJob}>Infantry Paratrooper</h3>
+                    <h2 id="army" style={styles.jobClick} onClick={this.showJob}>--- Infantry Paratrooper ---</h2>
                         {this.state.army ?
                         <Army />
                         :
                         ''
                         }
 
-                    <h3 id="tag" style={styles.jobClick} onClick={this.showJob}>E-Learning Administrator</h3>
+                    <h2 id="tag" style={styles.jobClick} onClick={this.showJob}>--- E-Learning Administrator ---</h2>
                         {this.state.tag ?
                         <TagHeuer />
                         :
@@ -62,6 +62,7 @@ export default class WorkExp extends Component {
                     <img style={styles.rightImg} src={brindleCoffee} alt='' />
                 </div>
             </div>
+            </>
         )
     }
 }
@@ -72,13 +73,15 @@ const styles = {
         height: '100vh',
         width: '85vw',
         gridTemplateColumns: '10% 60% 30%',
-        gridTemplateRows: '10% 85% 5%'
+        gridTemplateRows: '10% 85% 5%',
+        overflowY: 'scroll'
     },
     center: {
         display: 'flex',
         flexDirection: 'column',
         gridArea: '2 / 2 / span 1 / span 1',
-        alignItems: 'center'
+        alignItems: 'center',
+        overflowY: 'scroll'
     },
     imgArea: {
         display: 'flex',
@@ -89,7 +92,8 @@ const styles = {
         fontSize: '3em'
     },
     jobClick: {
-        cursor: 'pointer'
+        cursor: 'pointer',
+        fontWeight: '300',
     },
     rightImg: {
         width: '100%'
