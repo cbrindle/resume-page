@@ -10,7 +10,7 @@ export default class WorkExp extends Component {
 
     state = {
         job: '',
-        freelance: true,
+        freelance: false,
         sis: false,
         army: false,
         tag: false
@@ -48,21 +48,30 @@ export default class WorkExp extends Component {
                     
                     <h2 id="sis" style={styles.jobClick} onClick={this.showJob}>--- Security Operations Supervisor ---</h2>
                         {this.state.sis ?
-                        <SIS />
-                        :
-                        ''
-                        }
-
-                    <h2 id="army" style={styles.jobClick} onClick={this.showJob}>--- Infantry Paratrooper ---</h2>
-                        {this.state.army ?
-                        <Army />
+                        <SIS
+                            closeButton={this.closeButton}
+                            id={"sis"}
+                        />
                         :
                         ''
                         }
 
                     <h2 id="tag" style={styles.jobClick} onClick={this.showJob}>--- E-Learning Administrator ---</h2>
                         {this.state.tag ?
-                        <TagHeuer />
+                        <TagHeuer
+                            closeButton={this.closeButton}
+                            id={"tag"}
+                        />
+                        :
+                        ''
+                        }
+
+                    <h2 id="army" style={styles.jobClick} onClick={this.showJob}>--- Infantry Paratrooper ---</h2>
+                        {this.state.army ?
+                        <Army
+                            closeButton={this.closeButton}
+                            id={"army"}
+                        />
                         :
                         ''
                         }
