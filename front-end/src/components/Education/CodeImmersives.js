@@ -1,32 +1,26 @@
 import React, { Component } from 'react';
+import ReactModal from 'react-modal';
+
 
 export default class CodeImmersives extends Component {
-
-    componentDidMount = () => {
-        
-    }
-
-
     render() {
         return (
-            <>
-            <div style={styles.main}>
-                <h1>Code Immersives</h1>
+            <div>
+                <ReactModal
+                    isOpen={this.props.open}
+                    style={{
+                        overlay: {
+                            top: 25,
+                            left: 50,
+                            bottom: 25,
+                            right: 50,
+                            backgroundColor: 'rgba(0,0,0,0)'
+                        }
+                    }}
+                >
+                    <p>TEST</p>
+                </ReactModal>
             </div>
-            </>
         )
-    }
-}
-
-const styles = {
-    main: {
-        position: 'absolute',
-        zIndex: 5,
-        height: '85vh',
-        width: '75vw',
-        margin: 'auto',
-        overflowY: 'scroll',
-        backgroundColor: 'white',
-        margin: '10vh 0 0 5vw'
     }
 }
