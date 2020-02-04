@@ -6,7 +6,7 @@ export default class Education extends Component {
     render() {
         return (
             <div style={styles.main}>
-                <div style={styles.center}>
+                <div style={styles.centerTop}>
                     <h1 style={styles.title}>Education</h1>
                 </div>
 
@@ -24,13 +24,14 @@ const styles = {
         height: '100vh',
         width: '85vw',
         gridTemplateColumns: '10% 60% 30%',
-        gridTemplateRows: '10% 85% 5%'
+        gridTemplateRows: '10% 15% 70% 5%'
     },
-    center: {
+    centerTop: {
         display: 'flex',
         flexDirection: 'column',
         gridArea: '2 / 2 / span 1 / span 1',
-        alignItems: 'center'
+        alignItems: 'center',
+        justifyContent: 'center'
     },
     title: {
         fontSize: '3em'

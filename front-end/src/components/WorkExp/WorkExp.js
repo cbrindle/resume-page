@@ -4,6 +4,7 @@ import Army from './Army';
 import TagHeuer from './TagHeuer';
 import SIS from './SIS';
 import brindleCoffee from '../../images/brindle-coffee.png';
+import fullStackJob from '../../images/fullStackJobMod.jpg';
 
 
 export default class WorkExp extends Component {
@@ -36,7 +37,8 @@ export default class WorkExp extends Component {
                 <div style={styles.center}>
                     <h1 style={styles.title}>Work Experience</h1>
                     <br />
-                    <h2 id="freelance" style={styles.jobClick} onClick={this.showJob}>--- Full-Stack Web Developer ---</h2>
+                    <img id="freelance" src={fullStackJob} alt="A dog sitting at a lap top coding" onClick={this.showJob} style={styles.jobClick}/>
+                    {/* <h2 id="freelance" style={styles.jobClick} onClick={this.showJob}>--- Full-Stack Web Developer ---</h2> */}
                         {this.state.freelance ?
                         <Freelance
                             closeButton={this.closeButton}
