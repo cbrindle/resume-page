@@ -11,9 +11,9 @@ export default class SetonHall extends Component {
                     style={{
                         overlay: {
                             top: 25,
-                            left: 50,
+                            left: 150,
                             bottom: 25,
-                            right: 50,
+                            right: 150,
                             backgroundColor: 'rgba(0,0,0,0.3)'
                         }
                     }}

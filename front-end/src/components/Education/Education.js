@@ -34,9 +34,18 @@ export default class Education extends Component {
                     <h1 style={styles.title}>Education</h1>
                 </div>
                 <div style={styles.centerContent}>
-                    <h2 id="showCodeImmersives" onClick={this.showSchool}>Code Immersives placeholder</h2>
-                    <h2 id="showSetonHall" onClick={this.showSchool}>Seton Hall placeholder</h2>
-                    <h2 id="showUCC" onClick={this.showSchool}>UCC placeholder</h2>
+                    <div id="showCodeImmersives" style={styles.cursor} onClick={this.showSchool}>
+                        <h2 id="showCodeImmersives" onClick={this.showSchool}>--- Code Immersives NYC ---</h2>
+                        <p id="showCodeImmersives" onClick={this.showSchool} style={styles.description}>Web Developer Certification</p>
+                    </div>
+                    <div id="showSetonHall" style={styles.cursor} onClick={this.showSchool}>
+                        <h2 id="showSetonHall" onClick={this.showSchool}>--- Seton Hall University ---</h2>
+                        <p id="showSetonHall" onClick={this.showSchool} style={styles.description}>BA in Criminal Justice</p>
+                    </div>
+                    <div id="showUCC" style={styles.cursor} onClick={this.showSchool}>
+                        <h2 id="showUCC" onClick={this.showSchool}>--- UCC placeholder ---</h2>
+                        <p id="showUCC" onClick={this.showSchool} style={styles.description}>AS in Criminal Justice</p>
+                    </div>
                 </div>
                 <div style={styles.imgArea}>
                     <img src={brindleSchool} style={styles.rightImg} alt="Bitmoji of Brindle at school" />
@@ -79,7 +88,16 @@ const styles = {
         alignItems: 'center',
         justifyContent: 'flex-end'
     },
+    description: {
+        textAlign: 'center'
+    },
     rightImg: {
         width: '85%'
+    },
+    cursor: {
+        cursor: 'pointer',
+        margin: '2vh 0 2vh 0',
+        backgroundImage: 'linear-gradient(to right, lightgray, rgba(211,211,211,0.3)',
+        borderRadius: '3px'
     }
 }
