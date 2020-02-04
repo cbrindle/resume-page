@@ -116,7 +116,8 @@ const styles = {
     },
     jobClick: {
         cursor: 'pointer',
-        margin: '5vh 0 5vh 0'
+        margin: '5vh 0 5vh 0',
+        borderRadius: '5px'
     },
     rightImg: {
         width: '100%'
