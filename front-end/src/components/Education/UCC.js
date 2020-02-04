@@ -20,7 +20,7 @@ export default class UCC extends Component {
                 >
                     <div style={styles.main}>
                         <div style={styles.title}>
-                            <h1>Union County College</h1>
+                            <h1 style={styles.shadow}>Union County College</h1>
                         </div>
                         <div style={styles.contentLeft}>
                             Left
@@ -79,5 +79,8 @@ const styles = {
         backgroundColor: 'lightblue',
         fontWeight: 'bold',
         fontSize: '0.8em'
+    },
+    shadow: {
+        textShadow: '3px 3px gray'
     }
 }

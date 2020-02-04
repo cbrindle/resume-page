@@ -20,13 +20,26 @@ export default class CodeImmersives extends Component {
                 >
                     <div style={styles.main}>
                         <div style={styles.title}>
-                            <h1> Code Immersives</h1>
+                            <h1 style={styles.shadow}>Code Immersives</h1>
                         </div>
                         <div style={styles.contentLeft}>
-                            LEFT
+                            <div>
+                                <p><u>Date Attended</u></p>
+                                <p>May 2019 to May 2020</p>
+                            </div>
+                            <div>
+                                <p><u>Stack Taught</u></p>
+                                <p>M.E.R.N. (MongoDB, Express.js, React, Node.js)</p>
+                            </div>
+                            <div>
+                                <p><u>Certifications</u></p>
+                                <p>Full-Stack Web Developer, AWS</p>
+                            </div>
                         </div>
                         <div style={styles.contentRight}>
-                            RIGHT
+                            <p>The Code Immersive Web Development Intensive program helps students develop the technical skills required to pursue the opportunities that exist in the fast-growing web programming and software development industry. Code Immersive students are in the classroom for 45 weeks over the 900-hour, year-long, three-semester program. Contrast this with the typical coding bootcamp which lasts only 13-17 weeks.</p>
+
+                            <p>Code Immersive is dedicated to providing students with the programming skills they need to enter the digital job market or advance their existing careers.</p>
                         </div>
                         <div style={styles.closeArea}>
                             <button id="showCodeImmersives" type="button" onClick={this.props.closeModal} style={styles.closeButton}>Close</button>
@@ -59,11 +72,19 @@ const styles = {
     },
     contentLeft: {
         display: 'flex',
-        gridArea: '2 / 1 / span 1 / span 1'
+        flexDirection: 'column',
+        gridArea: '2 / 1 / span 1 / span 1',
+        fontWeight: 'bold',
+        fontSize: '1.3em'
     },
     contentRight: {
         display: 'flex',
-        gridArea: '2 / 2 / span 1 / span 1'
+        flexDirection: 'column',
+        gridArea: '2 / 2 / span 1 / span 1',
+        fontWeight: 'bold',
+        fontSize: '1.3em',
+        borderLeft: '2px solid black',
+        padding: '0 0 0 4%'
     },
     closeArea: {
         display: 'flex',
@@ -79,5 +100,8 @@ const styles = {
         backgroundColor: 'lightblue',
         fontWeight: 'bold',
         fontSize: '0.8em'
+    },
+    shadow: {
+        textShadow: '3px 3px gray'
     }
 }

@@ -43,7 +43,7 @@ export default class Education extends Component {
                         <p id="showSetonHall" onClick={this.showSchool} style={styles.description}>BA in Criminal Justice</p>
                     </div>
                     <div id="showUCC" style={styles.cursor} onClick={this.showSchool}>
-                        <h2 id="showUCC" onClick={this.showSchool}>--- UCC placeholder ---</h2>
+                        <h2 id="showUCC" onClick={this.showSchool}>--- Union County College ---</h2>
                         <p id="showUCC" onClick={this.showSchool} style={styles.description}>AS in Criminal Justice</p>
                     </div>
                 </div>
@@ -98,6 +98,7 @@ const styles = {
         cursor: 'pointer',
         margin: '2vh 0 2vh 0',
         backgroundImage: 'linear-gradient(to right, lightgray, rgba(211,211,211,0.3)',
-        borderRadius: '3px'
+        borderRadius: '3px',
+        borderLeft: '1px gray solid'
     }
 }
