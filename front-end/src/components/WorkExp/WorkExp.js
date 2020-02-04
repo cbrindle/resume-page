@@ -1,3 +1,7 @@
+//TODO:
+//      - Add descriptions to each job card.
+//      - Have Hime proofread.
+
 import React, { Component } from 'react';
 import Freelance from './Freelance';
 import Army from './Army';
