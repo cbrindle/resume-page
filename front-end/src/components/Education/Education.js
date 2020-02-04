@@ -10,7 +10,7 @@ export default class Education extends Component {
     state = {
         showCodeImmersives: false,
         showSetonHall: false,
-        showUCC: true,
+        showUCC: false,
     }
 
     showSchool = (event) => {
@@ -25,9 +25,9 @@ export default class Education extends Component {
         return (
             <>
             <div>
-                <CodeImmersives open={this.state.showCodeImmersives} />
-                <SetonHall open={this.state.showSetonHall} />
-                <UCC open={this.state.showUCC} />
+                <CodeImmersives open={this.state.showCodeImmersives} closeModal={this.showSchool} />
+                <SetonHall open={this.state.showSetonHall} closeModal={this.showSchool} />
+                <UCC open={this.state.showUCC} closeModal={this.showSchool} />
             </div>
             <div style={styles.main}>
                 <div style={styles.centerTop}>

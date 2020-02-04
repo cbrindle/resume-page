@@ -29,7 +29,7 @@ export default class UCC extends Component {
                             Right
                         </div>
                         <div style={styles.closeArea}>
-                            <button type="button" style={styles.closeButton}>Close</button>
+                            <button id="showUCC" type="button" onClick={this.props.closeModal} style={styles.closeButton}>Close</button>
                         </div>
                     </div>
                 </ReactModal>

@@ -28,6 +28,9 @@ export default class CodeImmersives extends Component {
                         <div style={styles.contentRight}>
                             RIGHT
                         </div>
+                        <div style={styles.closeArea}>
+                            <button id="showCodeImmersives" type="button" onClick={this.props.closeModal} style={styles.closeButton}>Close</button>
+                        </div>
                     </div>
                 </ReactModal>
             </div>
@@ -38,7 +41,7 @@ export default class CodeImmersives extends Component {
 const styles = {
     main: {
         display: 'grid',
-        gridTemplateRows: '20% 80%',
+        gridTemplateRows: '20% 70% 10%',
         gridTemplateColumns: '50% 50%',
         height: '100%',
         width: '100%',
@@ -61,5 +64,20 @@ const styles = {
     contentRight: {
         display: 'flex',
         gridArea: '2 / 2 / span 1 / span 1'
+    },
+    closeArea: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        gridArea: '3 / 1 / span 1 / span 2'
+    },
+    closeButton: {
+        height: '80%',
+        width: '10%',
+        border: '1px solid black',
+        borderRadius: '3px',
+        backgroundColor: 'lightblue',
+        fontWeight: 'bold',
+        fontSize: '0.8em'
     }
 }
