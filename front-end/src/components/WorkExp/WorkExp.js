@@ -5,6 +5,9 @@ import TagHeuer from './TagHeuer';
 import SIS from './SIS';
 import brindleCoffee from '../../images/brindle-coffee.png';
 import fullStackJob from '../../images/fullStackJobMod.jpg';
+import sisJob from '../../images/sisJob.png';
+import armyJob from '../../images/armyJob.jpg';
+import tagJob from '../../images/tagJob.jpg';
 
 
 export default class WorkExp extends Component {
@@ -48,7 +51,7 @@ export default class WorkExp extends Component {
                         ''
                         }
                     
-                    <h2 id="sis" style={styles.jobClick} onClick={this.showJob}>--- Security Operations Supervisor ---</h2>
+                    <img id="sis" src={sisJob} alt="SIS company logo with job title" onClick={this.showJob} style={styles.jobClick} />
                         {this.state.sis ?
                         <SIS
                             closeButton={this.closeButton}
@@ -58,7 +61,7 @@ export default class WorkExp extends Component {
                         ''
                         }
 
-                    <h2 id="tag" style={styles.jobClick} onClick={this.showJob}>--- E-Learning Administrator ---</h2>
+                    <img id="tag" src={tagJob} alt="TAG Heuer company logo with job title" onClick={this.showJob} style={styles.jobClick} />
                         {this.state.tag ?
                         <TagHeuer
                             closeButton={this.closeButton}
@@ -68,7 +71,7 @@ export default class WorkExp extends Component {
                         ''
                         }
 
-                    <h2 id="army" style={styles.jobClick} onClick={this.showJob}>--- Infantry Paratrooper ---</h2>
+                    <img id="army" src={armyJob} alt="Brindle in combat uniform with job title" onClick={this.showJob} style={styles.jobClick} />
                         {this.state.army ?
                         <Army
                             closeButton={this.closeButton}
@@ -113,7 +116,7 @@ const styles = {
     },
     jobClick: {
         cursor: 'pointer',
-        fontWeight: '300',
+        margin: '5vh 0 5vh 0'
     },
     rightImg: {
         width: '100%'
