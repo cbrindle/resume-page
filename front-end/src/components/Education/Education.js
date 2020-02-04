@@ -3,7 +3,6 @@ import brindleSchool from '../../images/brindle-school.png';
 import CodeImmersives from './CodeImmersives';
 import SetonHall from './SetonHall';
 import UCC from './UCC';
-import ReactModal from 'react-modal';
 
 
 export default class Education extends Component {
@@ -11,7 +10,7 @@ export default class Education extends Component {
     state = {
         showCodeImmersives: false,
         showSetonHall: false,
-        showUCC: false,
+        showUCC: true,
     }
 
     showSchool = (event) => {
@@ -27,10 +26,8 @@ export default class Education extends Component {
             <>
             <div>
                 <CodeImmersives open={this.state.showCodeImmersives} />
-                
-                {/* {this.state.showCodeImmersives && <CodeImmersives />}
-                {this.state.showSetonHall && <SetonHall />}
-                {this.state.showUCC && <UCC />} */}
+                <SetonHall open={this.state.showSetonHall} />
+                <UCC open={this.state.showUCC} />
             </div>
             <div style={styles.main}>
                 <div style={styles.centerTop}>
