@@ -14,7 +14,7 @@ export default class Freelance extends Component {
                     <p>Description</p>
                 </div>
                 <div style={styles.descriptionRight}>
-                    <p>TEST</p>
+                    <p>Proficient in both front and back end coding. Primary responsibilities include designing user interactions on websites, developing servers and databases for website functionality, and coding for mobile platforms.</p>
                 </div>
                 <div style={styles.duties}>
                     <p>Duties</p>
@@ -75,7 +75,8 @@ const styles = {
         gridArea: '2 / 2 / span 1 / span 1',
         borderBottom: '1px solid black',
         borderLeft: '1px solid black',
-        borderTop: '1px solid black'
+        borderTop: '1px solid black',
+        padding: '0 5% 0 5%'
     },
     duties: {
         display: 'flex',
