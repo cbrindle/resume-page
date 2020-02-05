@@ -37,7 +37,9 @@ export default class UCC extends Component {
                             </div>
                         </div>
                         <div style={styles.contentRight}>
-                            Right
+                            <p>At Union, students are #1! As the first community college in New Jersey, Union has been serving both career-minded and transfer-oriented students since 1933. The College is committed to providing an accessible and affordable liberal arts education to the residents of Union County. Our focus on excellence drives our mission to develop new programs and courses that reflect the ever-changing global demands.</p>
+
+                            <p>The College strives to promote in students a sense of responsibility for their own development and an understanding of their obligations as members of a democratic society.</p>
                         </div>
                         <div style={styles.closeArea}>
                             <button id="showUCC" type="button" onClick={this.props.closeModal} style={styles.closeButton}>Close</button>
