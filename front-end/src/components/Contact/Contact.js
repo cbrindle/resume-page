@@ -12,9 +12,13 @@ export default class Contact extends Component {
                     <h1 style={styles.title}>Contact</h1>
                 </div>
                 <div style={styles.centerContent}>
-                    <div style={{textAlign:'center', fontSize:'1.2em'}}>
+                    <div style={{textAlign:'center', fontSize:'1.4em'}}>
                         <p><b><u>Phone:</u></b> <i>(908) 514-7225</i></p>
-                        <p><b><u>Email:</u></b> <i>cbrindleusa@gmail.com</i></p>                        
+                        <p><b><u>Email:</u></b> <a href="mailto:cbrindleusa@gmail.com?Subject=Resume%20Page%20Email"><i>cbrindleusa@gmail.com</i></a></p>                        
+                    </div>
+                    <br />
+                    <div style={{textAlign:'center', fontSize: '1.2em'}}>
+                        <p>Thank you for visiting my resume page. Feel free to contact me at any time at the contact information listed above. If you want to learn more about me in the mean time, you can follow the links at the bottom of the page to my LinkedIn Page, Github Repo, and to Tales from Swiftfell (a browser-based Role-Playing Game I created).</p>
                     </div>
                 </div>
                 <div style={styles.imgArea}>
@@ -23,7 +27,7 @@ export default class Contact extends Component {
                 <div style={styles.linkArea}>
                     <FaLinkedin size={48} color={'blue'} style={styles.linksIcon} onClick={() => window.open('https://www.linkedin.com/in/christopherbrindle/', "_blank")} />
                     <FaGithub size={48} style={styles.linksIcon} onClick={() => window.open('https://github.com/cbrindle', "_blank")} />
-                    <GiCastle size={48} color={'red'} style={styles.linksIcon} onClick={() => window.open('https://tfs-chapter1.herokuapp.com/', "_blank")} />
+                    <GiCastle size={48} color={'maroon'} style={styles.linksIcon} onClick={() => window.open('https://tfs-chapter1.herokuapp.com/', "_blank")} />
                 </div>
             </div>
         )
@@ -70,7 +74,7 @@ const styles = {
         gridArea: '4 / 2 / span 1 / span 1'
     },
     linksIcon: {
-        padding: '0 5% 0 5%',
+        margin: '0 5% 0 5%',
         cursor: 'pointer'
     }
 }
