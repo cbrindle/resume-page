@@ -12,7 +12,7 @@ export default class TagHeuer extends Component {
                     <p>Description</p>
                 </div>
                 <div style={styles.descriptionRight}>
-                    <p>TEST</p>
+                    <p>In order for a jeweler or retailer to be able to sell TAH Heuer luxury time pieces, sales associates must undergo professional training concerning product knowledge, history, marketing, and customer service. The E-Learning Administrator is responsible for overseeing that program.</p>
                 </div>
                 <div style={styles.duties}>
                     <p>Duties</p>
@@ -73,7 +73,8 @@ const styles = {
         gridArea: '2 / 2 / span 1 / span 1',
         borderBottom: '1px solid black',
         borderLeft: '1px solid black',
-        borderTop: '1px solid black'
+        borderTop: '1px solid black',
+        padding: '0 5% 0 5%'
     },
     duties: {
         display: 'flex',
