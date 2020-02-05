@@ -23,7 +23,18 @@ export default class UCC extends Component {
                             <h1 style={styles.shadow}>Union County College</h1>
                         </div>
                         <div style={styles.contentLeft}>
-                            Left
+                            <div>
+                                <p><u>Date Attended</u></p>
+                                <p>Sep 2015 to Dec 2017</p>
+                            </div>
+                            <div>
+                                <p><u>Degree</u></p>
+                                <p>Associate's Degree of Science in Criminal Justice</p>
+                            </div>
+                            <div>
+                                <p><u>Accomplishments</u></p>
+                                <p>4.0 GPA, <i>Summa Cum Laude</i></p>
+                            </div>
                         </div>
                         <div style={styles.contentRight}>
                             Right
@@ -59,11 +70,19 @@ const styles = {
     },
     contentLeft: {
         display: 'flex',
-        gridArea: '2 / 1 / span 1 / span 1'
+        flexDirection: 'column',
+        gridArea: '2 / 1 / span 1 / span 1',
+        fontWeight: 'bold',
+        fontSize: '1.3em',
     },
     contentRight: {
         display: 'flex',
-        gridArea: '2 / 2 / span 1 / span 1'
+        flexDirection: 'column',
+        gridArea: '2 / 2 / span 1 / span 1',
+        fontWeight: 'bold',
+        fontSize: '1.3em',
+        borderLeft: '2px solid black',
+        padding: '0 0 0 4%'
     },
     closeArea: {
         display: 'flex',
