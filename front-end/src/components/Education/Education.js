@@ -10,7 +10,7 @@ export default class Education extends Component {
     state = {
         showCodeImmersives: false,
         showSetonHall: false,
-        showUCC: true,
+        showUCC: false,
     }
 
     showSchool = (event) => {
