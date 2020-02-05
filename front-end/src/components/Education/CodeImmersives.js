@@ -99,7 +99,8 @@ const styles = {
         borderRadius: '3px',
         backgroundColor: 'lightblue',
         fontWeight: 'bold',
-        fontSize: '0.8em'
+        fontSize: '0.8em',
+        cursor: 'pointer'
     },
     shadow: {
         textShadow: '3px 3px gray'
