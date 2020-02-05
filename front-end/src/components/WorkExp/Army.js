@@ -12,7 +12,7 @@ export default class Army extends Component {
                     <p>Description</p>
                 </div>
                 <div style={styles.descriptionRight}>
-                    <p>TEST</p>
+                    <p>Standing on the front lines front lines of combat, the Infantry Paratrooper is charged with defending our nation by parachuting into enemy territory, securing the area.</p>
                 </div>
                 <div style={styles.duties}>
                     <p>Duties</p>
@@ -76,7 +76,8 @@ const styles = {
         gridArea: '2 / 2 / span 1 / span 1',
         borderBottom: '1px solid black',
         borderLeft: '1px solid black',
-        borderTop: '1px solid black'
+        borderTop: '1px solid black',
+        padding: '0 5% 0 5%'
     },
     duties: {
         display: 'flex',
