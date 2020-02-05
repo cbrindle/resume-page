@@ -13,7 +13,6 @@ export default class Contact extends Component {
                 </div>
                 <div style={styles.centerContent}>
                     <div style={{textAlign:'center', fontSize:'1.4em'}}>
-                        <p><b><u>Phone:</u></b> <i>(908) 514-7225</i></p>
                         <p><b><u>Email:</u></b> <a href="mailto:cbrindleusa@gmail.com?Subject=Resume%20Page%20Email"><i>cbrindleusa@gmail.com</i></a></p>                        
                     </div>
                     <br />

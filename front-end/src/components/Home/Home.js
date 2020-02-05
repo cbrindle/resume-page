@@ -10,7 +10,7 @@ export default class Home extends Component {
                         <p>Christopher Brindle</p>
                     </div>
                     <div style={styles.centerMiddle}>
-                        <p>129 New Street, Cranford, NJ 07016  <b>|</b>  (908) 514-7225  <b>|</b>  cbrindleusa@gmail.com</p>
+                        <p>Full-Stack Web Developer</p>
                     </div>
                     <div style={styles.centerBottom}>
                         <br />
