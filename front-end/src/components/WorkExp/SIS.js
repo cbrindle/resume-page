@@ -12,7 +12,7 @@ export default class SIS extends Component {
                     <p>Description</p>
                 </div>
                 <div style={styles.descriptionRight}>
-                    <p>TEST</p>
+                    <p>SIS provides tailored security solutions for Fortune 500 companies and high level executives. A Security Operations Supervisor maintains client relations, hires, trains, schedules, and deploys Security Specialists, and processes all administrative actions for all Specialists in their ward.</p>
                 </div>
                 <div style={styles.duties}>
                     <p>Duties</p>
@@ -73,7 +73,8 @@ const styles = {
         gridArea: '2 / 2 / span 1 / span 1',
         borderBottom: '1px solid black',
         borderLeft: '1px solid black',
-        borderTop: '1px solid black'
+        borderTop: '1px solid black',
+        padding: '0 5% 0 5%'
     },
     duties: {
         display: 'flex',
