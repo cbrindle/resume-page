@@ -25,7 +25,7 @@ export default class HI extends Component {
                         <img src={homeImprovement} style={styles.hiImage} alt="Brindle sitting outside house" />
                     </div>
                     <div style={styles.topText}>
-
+                        <p>Closing on my home purchase was only the first chapter. On top of a number of out-dated aesthetic design choices, the home inspection during the contract process reviled a number of significant electrical issues. Half of the first floor and the entire second floor had to be gutted, removing all the old plaster and lath walls to expose and remedy the problems.</p>
                     </div>
                     <div style={styles.bottomText}>
 
@@ -57,19 +57,17 @@ const styles = {
     },
     topText: {
         display: 'flex',
-        textAlign: 'center',
         gridArea: '1 / 2 / span 1 / span 1',
         alignItems: 'center',
         justifyContent: 'center',
-        padding: '0 5vw 0 5vw'
+        padding: '0 3vw 0 3vw'
     },
     bottomText: {
         display: 'flex',
         flexDirection: 'column',
         gridArea: '2 / 1 / span 1 / span 2',
         alignItems: 'center',
-        justifyContent: 'center',
-        // padding: '0 5vw 0 5vw'
+        justifyContent: 'center'
     },
     hiImage: {
         height: '100%',
