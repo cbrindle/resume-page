@@ -64,6 +64,7 @@ const styles = {
     },
     topText: {
         display: 'flex',
+        textAlign: 'center',
         gridArea: '1 / 2 / span 1 / span 1',
         alignItems: 'center',
         justifyContent: 'center',
