@@ -22,7 +22,7 @@ export default class HI extends Component {
 
                 <div style={styles.main}>
                     <div style={styles.imgArea}>
-                        {/* Home Improvement Area */}
+                        <img src={homeImprovement} style={styles.hiImage} alt="Brindle sitting outside house" />
                     </div>
                     <div style={styles.topText}>
 
@@ -53,10 +53,7 @@ const styles = {
     imgArea: {
         display: 'flex',
         gridArea: '1 / 1 / span 1 / span 1',
-        backgroundImage: `url(${homeImprovement})`,
-        backgroundSize: 'contain',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center'
+        justifyContent: 'center'
     },
     topText: {
         display: 'flex',
@@ -73,5 +70,9 @@ const styles = {
         alignItems: 'center',
         justifyContent: 'center',
         // padding: '0 5vw 0 5vw'
+    },
+    hiImage: {
+        height: '100%',
+        width: '65%'
     }
 }
