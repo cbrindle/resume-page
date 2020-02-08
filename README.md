@@ -1,1 +1,2 @@
-# resume-page
+# Christopher Brindle
+### Full-Stack Web Developer
