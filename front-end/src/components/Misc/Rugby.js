@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactModal from 'react-modal';
 import rugbyTackle from '../../images/rugbyTackle.jpg';
+import rugbyBG from '../../images/rugbyBG.jpg';
 
 export default class Rugby extends Component {
     render() {
@@ -23,6 +24,12 @@ export default class Rugby extends Component {
                     <div style={styles.imgArea}>
                         {/* Rugby Image */}
                     </div>
+                    <div style={styles.topText}>
+                        <p>Top text</p>
+                    </div>
+                    <div style={styles.bottomText}>
+                        <p>Bottom Text</p>
+                    </div>
                 </div>
 
                 </ReactModal>
@@ -37,7 +44,13 @@ const styles = {
         gridTemplateRows: '50% 50%',
         gridTemplateColumns: '30% 70%',
         height: '100%',
-        width: '100%'
+        width: '100%',
+        backgroundImage: `url(${rugbyBG})`,
+        backgroundSize: 'contain',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        fontWeight: 'bold',
+        fontSize: '1.2em'
     },
     imgArea: {
         display: 'flex',
@@ -49,10 +62,14 @@ const styles = {
     },
     topText: {
         display: 'flex',
-        gridArea: '1 / 2 / span 1 / span 1'
+        gridArea: '1 / 2 / span 1 / span 1',
+        alignItems: 'center',
+        justifyContent: 'center'
     },
     bottomText: {
         display: 'flex',
-        gridArea: '2 / 1 / span 1 / span 2'
+        gridArea: '2 / 1 / span 1 / span 2',
+        alignItems: 'center',
+        justifyContent: 'center'
     }
 }
