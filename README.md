@@ -37,5 +37,7 @@
 #### Contact:
 
 Email: cbrindleusa@gmail.com
+
 LinkedIn: https://www.linkedin.com/in/christopherbrindle/
+
 Project: [Tales from Swiftfell](tfs-chapter1.herokuapp.com)
