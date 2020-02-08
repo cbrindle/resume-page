@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactModal from 'react-modal';
 import rugbyTackle from '../../images/rugbyTackle.jpg';
 import rugbyBG from '../../images/rugbyBG.jpg';
+import { FaWindowClose } from 'react-icons/fa';
 
 export default class Rugby extends Component {
     render() {
@@ -21,6 +22,7 @@ export default class Rugby extends Component {
                 >
                 
                 <div style={styles.main}>
+                    <FaWindowClose id="showRugby" size={32} style={styles.closeButton} onClick={this.props.closeModal} />
                     <div style={styles.imgArea}>
                         {/* Rugby Image */}
                     </div>
@@ -76,6 +78,10 @@ const styles = {
         gridArea: '2 / 1 / span 1 / span 2',
         alignItems: 'center',
         justifyContent: 'center',
-        // padding: '0 5vw 0 5vw'
+    },
+    closeButton: {
+        position: 'absolute',
+        left: '95%',
+        cursor: 'pointer'
     }
 }

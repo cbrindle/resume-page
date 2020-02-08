@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactModal from 'react-modal';
 import cranford from '../../images/cranford.png';
 import homeImprovement from '../../images/home-improvement.jpg';
+import { FaWindowClose } from 'react-icons/fa';
 
 export default class HI extends Component {
     render() {
@@ -21,6 +22,7 @@ export default class HI extends Component {
                 >
 
                 <div style={styles.main}>
+                    <FaWindowClose id="showHI" size={32} style={styles.closeButton} onClick={this.props.closeModal} />
                     <div style={styles.imgArea}>
                         <img src={homeImprovement} style={styles.hiImage} alt="Brindle sitting outside house" />
                     </div>
@@ -72,5 +74,10 @@ const styles = {
     hiImage: {
         height: '100%',
         width: '65%'
+    },
+    closeButton: {
+        position: 'absolute',
+        left: '95%',
+        cursor: 'pointer'
     }
 }
