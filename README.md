@@ -10,14 +10,34 @@
 - Conducted meetings with clients to determine their web application needs, translate them into clean, modern, and visually appealing code, and maintain the product to optimize its effectiveness in the ever evolving field of technology.
 
 
-*E-Learning Administrator* July 2016 to May 2018
+*Retail Operations Supervisor - Security Industry Specialists* August 2018 to March 2019
 
-- Provides user-end support and training data analytics for a web-based sales training and educational program for users based in the United States and Canada.
+- Responsible for the hiring, training, scheduling, deployment, and management of an 80 person unarmed security specialist team across multiple luxury boutiques and Fortune 500 retail clients.
+
+- Maintained relationships with client management teams to ensure services being provided comply with the company’s quality standards, needs, and operational picture.
+
+- Identify needs for, and provide, professional development training in areas such as basic and advanced security skills, leadership, loss prevention, and client specific policies and procedures.
 
 
-*Infantry Paratrooper* October 2004 to August 2015
+*E-Learning Administrator - TAG Heuer* July 2016 to May 2018
 
-- Trained, mentored, and professionally developed 16 subordinates in combat operations and management techniques, enabling them to be recognized as subject matter experts, three of whom were promoted to advanced leadership positions.
+- Responsible for building and maintaining a user database for an online retail training platform that services the United States and Canada, containing over 7,000 users.
+
+- Provide prompt and effective trouble-shooting solutions to user-end issues with platform interaction and website interfacing.
+
+- Advise and assist management elements in the improvement of the training program by developing and implementing innovative
+procedures.
+
+
+*Infantry Paratrooper - United States Army* October 2004 to August 2015
+
+- Trained, mentored, and professionally developed subordinates in combat operations, problem solving skills, and leadership styles.
+
+- Exercised sound judgment in the maneuvering and control of team members, successfully accomplishing over 200 combat missions in multiple theaters of operation.
+
+- Conducted reconnaissance, surveillance, and target acquisition as part of a three-man team responsible for the accurate and timely gathering of intelligence to support larger operations.
+
+- Reviewed, processed, and supervised accountability of financial, administrative, and personnel actions for up to 220 employees as a Company Operations Manager.
 
 
 
