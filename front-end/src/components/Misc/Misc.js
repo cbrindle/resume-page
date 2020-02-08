@@ -9,7 +9,7 @@ import HI from './HI';
 export default class Misc extends Component {
 
     state = {
-        showRugby: false,
+        showRugby: true,
         showHI: false
     }
 

@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import brindleHi from '../../images/brindle-hi.png';
 import { FaArrowAltCircleDown, FaArrowAltCircleUp } from 'react-icons/fa';
-import scrollTriggers from 'scroll-triggers';
-
 
 export default class Home extends Component {
 
