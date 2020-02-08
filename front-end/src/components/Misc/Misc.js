@@ -2,15 +2,18 @@ import React, { Component } from 'react';
 import brindleMisc from '../../images/brindle-misc.png';
 import hobbyRugby from '../../images/hobbyRugby.jpg';
 import hobbyHI from '../../images/hobbyHI.jpg';
+import hobbyTravel from '../../images/hobbyTravel.jpg';
 import Rugby from './Rugby';
 import HI from './HI';
+import Travel from './Travel';
 
 
 export default class Misc extends Component {
 
     state = {
         showRugby: false,
-        showHI: true
+        showHI: false,
+        showTravel: false
     }
 
     showItem = (event) => {
@@ -26,6 +29,7 @@ export default class Misc extends Component {
             <div>
                 <Rugby open={this.state.showRugby} closeModal={this.showItem} />
                 <HI open={this.state.showHI} closeModal={this.showItem} />
+                <Travel open={this.state.showTravel} closeModal={this.showItem} />
             </div>
             <div style={styles.main}>
                 <div style={styles.centerTitle}>
@@ -36,6 +40,7 @@ export default class Misc extends Component {
                         <p style={{textAlign:'center'}}>--- Hobbies ---</p>
                         <img id="showRugby" onClick={this.showItem} src={hobbyRugby} alt="Brindle playing rugby, putting a step on a fool." style={styles.linkImage} />
                         <img id="showHI" onClick={this.showItem} src={hobbyHI} alt="Brindle standing proudly in front of his home which he would soon learn contained a myriad of electrical issues" style={styles.linkImage} />
+                        <img id="showTravel" onClick={this.showItem} src={hobbyTravel} alt="A world map with pins representing all places traveled" style={styles.linkImage} />
                     </div>
                 </div>
                 <div style={styles.imgArea}>
