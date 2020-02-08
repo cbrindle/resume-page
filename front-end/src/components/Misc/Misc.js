@@ -9,8 +9,8 @@ import HI from './HI';
 export default class Misc extends Component {
 
     state = {
-        showRugby: true,
-        showHI: false
+        showRugby: false,
+        showHI: true
     }
 
     showItem = (event) => {
