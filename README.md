@@ -2,7 +2,7 @@
 ### Full-Stack Web Developer
 
 
-##### Work Experience
+#### Work Experience:
 *Freelance* May 2019 - Present
 
 - Utilizing MERN (MongoDB, Express.js, React, Node.js) stack, create pixel-perfect custom web pages and apps that are fully responsive to both desktop and mobile use.
@@ -21,7 +21,21 @@
 
 
 
-##### Education
+#### Education:
 *Code Immersives* May 2019 to May 2020
 
-- Full Stack Web Developer certification with MERN stack.
+- Full Stack Web Developer certification utilizing MERN stack.
+
+
+*Seton Hall University* January 2017 to May 2018
+
+- BA in Criminal Justice
+- Summa Cum Laude
+
+
+
+#### Contact:
+
+Email: cbrindleusa@gmail.com
+LinkedIn: https://www.linkedin.com/in/christopherbrindle/
+Project: [Tales from Swiftfell](tfs-chapter1.herokuapp.com)
