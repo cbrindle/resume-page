@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactModal from 'react-modal';
+import { FaWindowClose } from 'react-icons/fa';
 
 export default class Travel extends Component {
     render() {
@@ -19,6 +20,7 @@ export default class Travel extends Component {
                 >
 
                 <div style={styles.main}>
+                    <FaWindowClose id="showTravel" size={32} style={styles.closeButton} onClick={this.props.closeModal} />
                     <div style={styles.imgArea}>
                         (image placeholder)
                     </div>
