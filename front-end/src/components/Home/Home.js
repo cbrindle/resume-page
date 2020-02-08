@@ -1,7 +1,32 @@
 import React, { Component } from 'react';
 import brindleHi from '../../images/brindle-hi.png';
+import { FaArrowAltCircleDown, FaArrowAltCircleUp } from 'react-icons/fa';
+import scrollTriggers from 'scroll-triggers';
+
 
 export default class Home extends Component {
+
+    state = {
+        notBottom: false
+    }
+
+    bottomCheck = () => {
+        const area = document.querySelector(`#scrollArea`);
+        const areaA = area.scrollTop;
+        const areaB = area.scrollHeight - area.clientHeight;
+        const areaC = areaA / areaB;
+        console.log(areaC);
+        if (areaC > 0.9) {
+            this.setState({
+                notBottom: true
+            })
+        } else {
+            this.setState({
+                notBottom: false
+            })
+        }
+    }
+
     render() {
         return (
             <div style={styles.main}>
@@ -12,7 +37,7 @@ export default class Home extends Component {
                     <div style={styles.centerMiddle}>
                         <p>Full-Stack Web Developer</p>
                     </div>
-                    <div style={styles.centerBottom}>
+                    <div id="scrollArea" onScroll={this.bottomCheck} style={styles.centerBottom} >
                         <br />
                         <p>I learned early on in life that amateurs work at something until they get it right; professionals will work at it until they can't get it wrong.</p>
 
@@ -23,6 +48,8 @@ export default class Home extends Component {
                         <p>What I offer is a modern understanding of not only the core elements of Web Development but the importance of User Interface and Experience. Bottom line, if your product looks lack-luster or is difficult to navigate, no one will care how fancy your code is on the back-end. I always ask myself, "Is this something I would want to use" when working on any project.</p>
 
                         <p>To see more, please feel free to follow the link to my Github to have a look at what I'm working on, or email me anytime.</p>
+                        {!this.state.notBottom ? <FaArrowAltCircleDown size={32} style={styles.showArrow} /> :
+                        <FaArrowAltCircleUp size={32} style={styles.showArrow} />}
                     </div>
                 </div>
                 <div style={styles.rightArea}>
@@ -81,5 +108,9 @@ const styles = {
     rightImg: {
         height: '50%',
         width: '85%'
+    },
+    showArrow: {
+        position: 'absolute',
+        top: '87%'
     }
 }
