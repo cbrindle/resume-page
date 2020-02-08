@@ -13,7 +13,7 @@ export default class Misc extends Component {
     state = {
         showRugby: false,
         showHI: false,
-        showTravel: false
+        showTravel: true
     }
 
     showItem = (event) => {

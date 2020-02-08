@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactModal from 'react-modal';
 import { FaWindowClose } from 'react-icons/fa';
+import mountains from '../../images/mountains.jpeg';
 
 export default class Travel extends Component {
     render() {
@@ -22,7 +23,7 @@ export default class Travel extends Component {
                 <div style={styles.main}>
                     <FaWindowClose id="showTravel" size={32} style={styles.closeButton} onClick={this.props.closeModal} />
                     <div style={styles.imgArea}>
-                        (image placeholder)
+                        <img src={mountains} style={styles.travelImage} />
                     </div>
                     <div style={styles.topText}>
                         <p>Top Text</p>
@@ -70,9 +71,9 @@ const styles = {
         alignItems: 'center',
         justifyContent: 'center'
     },
-    hiImage: {
+    travelImage: {
         height: '100%',
-        width: '65%'
+        width: '100%'
     },
     closeButton: {
         position: 'absolute',

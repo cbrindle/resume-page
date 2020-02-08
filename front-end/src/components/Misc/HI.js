@@ -30,7 +30,7 @@ export default class HI extends Component {
                         <p>Closing on my home purchase was only the first chapter. On top of a number of out-dated aesthetic design choices, the home inspection during the contract process reviled a number of significant electrical issues. Half of the first floor and the entire second floor had to be gutted, removing all the old plaster and lath walls to expose and remedy the problems. The amount of work that needed to be done was quickly becoming expensive. Fortunately, I was able to get a HUGE amount of help and know-how from my father and a few of his friends. Slowly but surely, I was able to do the majority of work myself, keeping costs down and eventually transforming the house into my <i>home.</i></p>
                     </div>
                     <div style={styles.bottomText}>
-                        <p>BOTTOM</p>
+                        <p>Completing such a huge undertaking filled me with an immense sense of satisfaction. I sometimes find myself sitting in my living room, looking around thinking to myself, "Wow, I made this." As my home was originally constructed in the 1920, it requires a lot of upkeep and improvements. Being able to do them myself is always a challenge, but one that comes with feelings of accomplishment.</p>
                     </div>
                 </div>
                 </ReactModal>
@@ -69,7 +69,8 @@ const styles = {
         flexDirection: 'column',
         gridArea: '2 / 1 / span 1 / span 2',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        padding: '0 3vw 0 3vw'
     },
     hiImage: {
         height: '100%',
