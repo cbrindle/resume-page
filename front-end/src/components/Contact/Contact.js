@@ -16,7 +16,7 @@ export default class Contact extends Component {
                         <p><b><u>Email:</u></b> <a href="mailto:cbrindleusa@gmail.com?Subject=Resume%20Page%20Email"><i>cbrindleusa@gmail.com</i></a></p>                        
                     </div>
                     <br />
-                    <div style={{textAlign:'center', fontSize: '1.2em'}}>
+                    <div style={{textAlign:'center', fontSize: '1.6em'}}>
                         <p>Thank you for visiting my resume page. Feel free to contact me at any time at the contact information listed above. If you want to learn more about me in the mean time, you can follow the links at the bottom of the page to my LinkedIn Page, Github Repo, and to Tales from Swiftfell (a browser-based Role-Playing Game I created).</p>
                     </div>
                 </div>
