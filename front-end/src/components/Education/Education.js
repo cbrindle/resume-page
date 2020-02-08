@@ -97,8 +97,8 @@ const styles = {
     cursor: {
         cursor: 'pointer',
         margin: '2vh 0 2vh 0',
-        backgroundImage: 'linear-gradient(to right, lightgray, rgba(211,211,211,0.3)',
+        backgroundImage: 'linear-gradient(to right, green, rgba(182,215,234,0.3)',
         borderRadius: '3px',
-        borderLeft: '1px gray solid'
+        borderLeft: '1px black solid',
     }
 }
