@@ -24,3 +24,13 @@ export const checkTokenAuth = () => {
         }
     }
 }
+
+export const apiStayUp = async () => {
+    try {
+        let success = await Axios.get('/awake')
+        console.log(`success.data: `, success.data);
+        return success.data
+    } catch (err) {
+        return err
+    }
+}
