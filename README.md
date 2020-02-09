@@ -1,68 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Christopher Brindle
+### Full-Stack Web Developer
 
-## Available Scripts
 
-In the project directory, you can run:
+#### Work Experience:
+*Freelance* May 2019 - Present
 
-### `npm start`
+- Utilizing MERN (MongoDB, Express.js, React, Node.js) stack, create pixel-perfect custom web pages and apps that are fully responsive to both desktop and mobile use.
+- Proficient in React, a modern Front-End development framework, and its implementation to create Single Page Applications.
+- Conducted meetings with clients to determine their web application needs, translate them into clean, modern, and visually appealing code, and maintain the product to optimize its effectiveness in the ever evolving field of technology.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+*Retail Operations Supervisor - Security Industry Specialists* August 2018 to March 2019
 
-### `npm test`
+- Responsible for the hiring, training, scheduling, deployment, and management of an 80 person unarmed security specialist team across multiple luxury boutiques and Fortune 500 retail clients.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Maintained relationships with client management teams to ensure services being provided comply with the company’s quality standards, needs, and operational picture.
 
-### `npm run build`
+- Identify needs for, and provide, professional development training in areas such as basic and advanced security skills, leadership, loss prevention, and client specific policies and procedures.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+*E-Learning Administrator - TAG Heuer* July 2016 to May 2018
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Responsible for building and maintaining a user database for an online retail training platform that services the United States and Canada, containing over 7,000 users.
 
-### `npm run eject`
+- Provide prompt and effective trouble-shooting solutions to user-end issues with platform interaction and website interfacing.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Advise and assist management elements in the improvement of the training program by developing and implementing innovative
+procedures.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+*Infantry Paratrooper - United States Army* October 2004 to August 2015
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Trained, mentored, and professionally developed subordinates in combat operations, problem solving skills, and leadership styles.
 
-## Learn More
+- Exercised sound judgment in the maneuvering and control of team members, successfully accomplishing over 200 combat missions in multiple theaters of operation.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Conducted reconnaissance, surveillance, and target acquisition as part of a three-man team responsible for the accurate and timely gathering of intelligence to support larger operations.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Reviewed, processed, and supervised accountability of financial, administrative, and personnel actions for up to 220 employees as a Company Operations Manager.
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+#### Education:
+*Code Immersives* May 2019 to May 2020
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- Full Stack Web Developer certification utilizing MERN stack.
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+*Seton Hall University* January 2017 to May 2018
 
-### Advanced Configuration
+- BA in Criminal Justice
+- Summa Cum Laude
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+#### Contact:
 
-### `npm run build` fails to minify
+Email: cbrindleusa@gmail.com
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+LinkedIn: https://www.linkedin.com/in/christopherbrindle/
+
+Project: [Tales from Swiftfell](https://tfs-chapter1.herokuapp.com)
