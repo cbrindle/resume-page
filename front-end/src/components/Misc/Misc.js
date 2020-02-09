@@ -13,7 +13,7 @@ export default class Misc extends Component {
     state = {
         showRugby: false,
         showHI: false,
-        showTravel: true
+        showTravel: false
     }
 
     showItem = (event) => {
@@ -37,7 +37,6 @@ export default class Misc extends Component {
                 </div>
                 <div style={styles.centerContent}>
                     <div style={{textAlign:'center'}}>
-                        <p style={{textAlign:'center'}}>--- Hobbies ---</p>
                         <img id="showRugby" onClick={this.showItem} src={hobbyRugby} alt="Brindle playing rugby, putting a step on a fool." style={styles.linkImage} />
                         <img id="showHI" onClick={this.showItem} src={hobbyHI} alt="Brindle standing proudly in front of his home which he would soon learn contained a myriad of electrical issues" style={styles.linkImage} />
                         <img id="showTravel" onClick={this.showItem} src={hobbyTravel} alt="A world map with pins representing all places traveled" style={styles.linkImage} />
