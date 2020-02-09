@@ -34,6 +34,7 @@ export default class Education extends Component {
                     <h1 style={styles.title}>Education</h1>
                 </div>
                 <div style={styles.centerContent}>
+                    {/* Consider making better cards */}
                     <div id="showCodeImmersives" style={styles.cursor} onClick={this.showSchool}>
                         <h2 id="showCodeImmersives" onClick={this.showSchool}>--- Code Immersives NYC ---</h2>
                         <p id="showCodeImmersives" onClick={this.showSchool} style={styles.description}>Web Developer Certification</p>
