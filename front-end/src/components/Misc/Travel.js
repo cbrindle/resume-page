@@ -23,7 +23,7 @@ export default class Travel extends Component {
                 <div style={styles.main}>
                     <FaWindowClose id="showTravel" size={32} style={styles.closeButton} onClick={this.props.closeModal} />
                     <div style={styles.imgArea}>
-                        <img src={mountains} style={styles.travelImage} />
+                        <img src={mountains} style={styles.travelImage} alt="An apple blossom tree with a snow capped mountain in the background" />
                     </div>
                     <div style={styles.topText}>
                         <p>Top Text</p>
