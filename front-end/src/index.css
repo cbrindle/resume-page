@@ -25,3 +25,12 @@ code {
 .ReactModal__Overlay--before-close{
     opacity: 0;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: blue
+}
