@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/awake', function(req, res) {
+  res.json({message: ''})
+})
+
 module.exports = router;
