@@ -36,6 +36,6 @@ const styles = {
         color: 'black',
         fontWeight: 'bold',
         textDecoration: 'none',
-        padding: '10% 0 10% 0'
+        margin: '10% 0 10% 0'
     }
 }
