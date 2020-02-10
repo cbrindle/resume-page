@@ -40,7 +40,7 @@ export default class Coding extends Component {
                     <h1 style={styles.codeTitle}>React:</h1>
                     <p style={styles.codePara}>"React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications."</p>
 
-                    <p style={styles.codePara}>(place holder)</p>
+                    <p style={styles.codePara}>React is all about putting the user experience first. By loading and switching out components rather than making an entirely new request to a server to display content, React provides a cleaner, seamless, and overall more pleasant user experience.</p>
 
                     <br />
                     <br />
@@ -48,7 +48,7 @@ export default class Coding extends Component {
                     <h1 style={styles.codeTitle}>Node.js:</h1>
                     <p style={styles.codePara}>"Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser."</p>
 
-                    <p style={styles.codePara}>(place holder)</p>
+                    <p style={styles.codePara}>Node allows me to work with CRUD (Create, Read, Update, Delete) apps in a much more manageable way.</p>
                 </div>
 
                 <div style={styles.imgArea}>
