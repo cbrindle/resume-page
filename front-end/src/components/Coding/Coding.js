@@ -15,7 +15,7 @@ export default class Coding extends Component {
                     <img src={mernLogo} style={styles.mernImg} alt="MERN stack coding logo" />
                     <br />
 
-                    <p style={styles.mernDescription}>MERN Stack is a Javascript Stack that is used for easier and faster deployment of full-stack web applications. MERN Stack comprises of 4 technologies namely: MongoDB, Express, React and Node.js. It is designed to make the development process smoother and easier.</p>
+                    <p style={styles.mernDescription}><b>MERN</b> Stack is a Javascript Stack that is used for easier and faster deployment of full-stack web applications. MERN Stack comprises of 4 technologies namely: MongoDB, Express, React and Node.js. It is designed to make the development process smoother and easier.</p>
                     
                     <p style={styles.mernDescription}>Each of these 4 powerful technologies provides an end-to-end framework for the developers to work in and each of these technologies play a big part in the development of web applications.</p>
                     <br />
@@ -24,7 +24,7 @@ export default class Coding extends Component {
                     <h1 style={styles.codeTitle}>MongoDB:</h1>
                     <p style={styles.codePara}>"MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the cloud era."</p>
 
-                    <p style={styles.codePara}>(place holder)</p>
+                    <p style={styles.codePara}>What I like about MongoDB is that it is not a relational database. Typical SQL databases organize their data into tables and rows. I feel this can be constricting when you are trying to create a database to serve your exact needs. MongoDB, instead, organizes its data into JSON document, making querying the data much more dynamic.</p>
 
                     <br />
                     <br />
