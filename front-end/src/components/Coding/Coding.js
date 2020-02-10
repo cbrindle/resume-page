@@ -32,7 +32,7 @@ export default class Coding extends Component {
                     <h1 style={styles.codeTitle}>Express:</h1>
                     <p style={styles.codePara}>"Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications."</p>
 
-                    <p style={styles.codePara}>(place holder)</p>
+                    <p style={styles.codePara}>Express.js makes routing quite simple. When making GET, POST, or any other kind of XML request, Express allows for responding to client requests a breeze. In addition, Express allows me to easily use Middleware, a function carried out before data is returned to the client, to ensure whatever XML request being made is carried out with extreme precision.</p>
 
                     <br />
                     <br />
