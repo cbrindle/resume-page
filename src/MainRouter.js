@@ -11,25 +11,26 @@ const Coding = React.lazy(() => import('./components/Coding/Coding'));
 const Projects = React.lazy(() => import('./components/Projects/Projects'));
 const Contact = React.lazy(() => import('./components/Contact/Contact'));
 const Misc = React.lazy(() => import('./components/Misc/Misc'));
+const CodingAlt = React.lazy(() => import('./components/Coding/CodingAlt'));
 
 export default class MainRouter extends Component {
     render() {
         return (
             <>
-            <div style={styles.main}>
-                <Nav />
-                <React.Suspense fallback={<Spinner />}>
-                <Switch>
-                    <Route exact path="/" component={Home} />
-                    <Route exact path="/education" component={Education} />
-                    <Route exact path="/work-experience" component={WorkExp} />
-                    <Route exact path="/coding" component={Coding} />
-                    <Route exact path="/projects" component={Projects} />
-                    <Route exact path="/contact" component={Contact} />
-                    <Route exact path="/misc" component={Misc} />
-                </Switch>
-                </React.Suspense>
-            </div>
+                <div style={styles.main}>
+                    <Nav />
+                    <React.Suspense fallback={<Spinner />}>
+                        <Switch>
+                            <Route exact path="/" component={Home} />
+                            <Route exact path="/education" component={Education} />
+                            <Route exact path="/work-experience" component={WorkExp} />
+                            <Route exact path="/coding" component={CodingAlt} />
+                            <Route exact path="/projects" component={Projects} />
+                            <Route exact path="/contact" component={Contact} />
+                            <Route exact path="/misc" component={Misc} />
+                        </Switch>
+                    </React.Suspense>
+                </div>
             </>
         )
     }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import brindleCoding from '../../images/brindle-coding.png';
+import mernStackLogo from '../../images/mernStackLogo.jpg';
 
 
 export default class Coding extends Component {
@@ -11,7 +12,7 @@ export default class Coding extends Component {
                 </div>
 
                 <div style={styles.centerContent}>
-                    {/* <img src={mernLogo} style={styles.mernImg} alt="MERN stack coding logo" /> */}
+                    <img src={mernStackLogo} style={styles.mernImg} alt="MERN stack coding logo" />
                     <br />
 
                     <p style={styles.mernDescription}><b>MERN</b> Stack is a Javascript Stack that is used for easier and faster deployment of full-stack web applications. MERN Stack comprises of 4 technologies namely: MongoDB, Express, React and Node.js. It is designed to make the development process smoother and easier.</p>
@@ -72,6 +73,7 @@ const styles = {
         gridArea: '2 / 2 / span 1 / span 1',
         alignItems: 'center',
         justifyContent: 'center',
+        overflowY: 'visible'
     },
     title: {
         fontSize: '3em'
@@ -87,7 +89,7 @@ const styles = {
         textAlign: 'center'
     },
     mernImg: {
-        height: '40vh',
+        height: '45vh',
         width: '40vw',
         alignSelf: 'center',
         margin: '5vh 0 0 0'
