@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-export default class EducationMobile extends Component {
+export default class MiscMobile extends Component {
     render() {
         return (
             <div style={styles.main}>
-                <p>EDUCATION MOBILE</p>
+                <p>MICS MOBILE</p>
             </div>
         )
     }

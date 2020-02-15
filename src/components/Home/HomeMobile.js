@@ -6,6 +6,8 @@ export default class HomeMobile extends Component {
         return (
             <div style={styles.main}>
 
+                <h1 style={{ textAlign: 'center' }}>Welcome</h1>
+
                 <p> I learned early on in life that amateurs work at something until they get it right; professionals will work at it until they can't get it wrong.</p>
 
                 <p>After spending 11 years in the United States Army as an Infantry Paratrooper, with combat deployments to  both Iraq and Afghanistan, I was looking to start a new chapter of my life. While earning my BA in Criminal Justice, I was able to maintain a 4.0 GPA and work part-time for TAG Heuer as an E-Learning Administrator / Data Analysis. I continued my education by enrolling in Code Immersives NYC, an 11 month Web Development program that teaches modern development techniques and standards of practice that go well beyond a typical, 12-week "boot-camp."</p>

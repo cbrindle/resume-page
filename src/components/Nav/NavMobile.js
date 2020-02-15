@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { slide as Menu } from 'react-burger-menu';
+import { bubble as Menu } from 'react-burger-menu';
 import { FaBars } from 'react-icons/fa';
 
 export default class NavMobile extends Component {
@@ -26,6 +26,7 @@ export default class NavMobile extends Component {
                                 width={'60%'}
                                 // customBurgerIcon={<FaBars size={32} />}
                                 styles={menuStyles}
+                                bubble
                             >
                                 <a id="Home" className="menu-item" style={styles.linkText} href="/">Home</a>
                                 <a id="Education" className="menu-item" style={styles.linkText} href="/education">Education</a>
@@ -62,14 +63,13 @@ const styles = {
     menuLinksArea: {
         display: 'flex',
         flexDirection: 'column',
-        // zIndex: '2',
         height: '40vh',
         backgroundColor: 'gray'
     },
     linkText: {
         fontSize: '2em',
         margin: '0 0 4vh 0',
-        color: 'skyblue'
+        color: 'green'
     }
 }
 
@@ -101,7 +101,7 @@ const menuStyles = {
     bmMenu: {
         background: '#373a47',
         padding: '2.5em 1.5em 0',
-        fontSize: '1.15em'
+        fontSize: '1.15em',
     },
     bmMorphShape: {
         fill: '#373a47'
