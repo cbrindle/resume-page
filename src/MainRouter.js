@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Nav from './components/Nav/Nav'
+import Nav from './components/Nav/Nav';
+import NavMobile from './components/Nav/NavMobile';
 import background from './images/main-bg3-mod.png';
 import Spinner from './components/Spinner/Spinner';
 
@@ -12,22 +13,35 @@ const Contact = React.lazy(() => import('./components/Contact/Contact'));
 const Misc = React.lazy(() => import('./components/Misc/Misc'));
 const CodingAlt = React.lazy(() => import('./components/Coding/CodingAlt'));
 const HomeMobile = React.lazy(() => import('./components/Home/HomeMobile'));
+const EducationMobile = React.lazy(() => import('./components/Education/EducationMobile'));
 
 export default class MainRouter extends Component {
     render() {
         return (
             <>
-                <div style={styles.main}>
-                    {typeof window.orientation !== "undefined" ? '' : <Nav />}
+                <div style={typeof window.orientation !== "undefined" ? styles.mainMobile : styles.main}>
+                    {typeof window.orientation !== "undefined" ? <NavMobile /> : <Nav />}
                     <React.Suspense fallback={<Spinner />}>
                         <Switch>
-                            {typeof window.orientation !== "undefined" ? <Route exact path="/" component={HomeMobile} /> : <Route exact path="/" component={Home} />}
-                            <Route exact path="/education" component={Education} />
-                            <Route exact path="/work-experience" component={WorkExp} />
-                            <Route exact path="/coding" component={CodingAlt} />
-                            <Route exact path="/projects" component={Projects} />
-                            <Route exact path="/contact" component={Contact} />
-                            <Route exact path="/misc" component={Misc} />
+                            {typeof window.orientation !== "undefined" ?
+                                (
+                                    <>
+                                        <Route exact path="/" component={HomeMobile} />
+                                    </>
+                                )
+                                :
+                                (
+                                    <>
+                                        <Route exact path="/" component={Home} />
+                                        <Route exact path="/education" component={Education} />
+                                        <Route exact path="/work-experience" component={WorkExp} />
+                                        <Route exact path="/coding" component={CodingAlt} />
+                                        <Route exact path="/projects" component={Projects} />
+                                        <Route exact path="/contact" component={Contact} />
+                                        <Route exact path="/misc" component={Misc} />
+                                    </>
+                                )
+                            }
                         </Switch>
                     </React.Suspense>
                 </div>
@@ -44,5 +58,15 @@ const styles = {
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
+    },
+    mainMobile: {
+        display: 'grid',
+        gridTemplateRows: '10% 90%',
+        gridTemplateColumns: '100%',
+        backgroundImage: `url(${background})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        height: '100vh'
     }
 }

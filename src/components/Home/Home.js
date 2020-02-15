@@ -13,7 +13,6 @@ export default class Home extends Component {
         const areaA = area.scrollTop;
         const areaB = area.scrollHeight - area.clientHeight;
         const areaC = areaA / areaB;
-        console.log(areaC);
         if (areaC > 0.9) {
             this.setState({
                 notBottom: true
@@ -47,7 +46,7 @@ export default class Home extends Component {
 
                         <p>To see more, please feel free to follow the link to my Github to have a look at what I'm working on, or email me anytime.</p>
                         {!this.state.notBottom ? <FaArrowAltCircleDown size={32} style={styles.showArrow} /> :
-                        <FaArrowAltCircleUp size={32} style={styles.showArrow} />}
+                            <FaArrowAltCircleUp size={32} style={styles.showArrow} />}
                     </div>
                 </div>
                 <div style={styles.rightArea}>
