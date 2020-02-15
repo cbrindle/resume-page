@@ -31,11 +31,11 @@ export default class MainRouter extends Component {
                                 (
                                     <>
                                         <Route exact path="/" component={HomeMobile} />
-                                        <Route exact path="/education" component={EducationMobile} />
-                                        <Route exact path="/work-experience" component={WorkExpMobile} />
-                                        <Route exact path="/coding" component={CodingMobile} />
-                                        <Route exact path="/contact" component={ContactMobile} />
-                                        <Route exact path="/mics" component={MiscMobile} />
+                                        <Route exact path="/education-mobile" component={EducationMobile} />
+                                        <Route exact path="/work-experience-mobile" component={WorkExpMobile} />
+                                        <Route exact path="/coding-mobile" component={CodingMobile} />
+                                        <Route exact path="/contact-mobile" component={ContactMobile} />
+                                        <Route exact path="/mics-mobile" component={MiscMobile} />
                                     </>
                                 )
                                 :

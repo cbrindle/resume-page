@@ -28,12 +28,12 @@ export default class NavMobile extends Component {
                                 bubble
                             >
                                 <a id="Home" className="menu-item" style={styles.linkText} href="/">Home</a>
-                                <a id="Education" className="menu-item" style={styles.linkText} href="/education">Education</a>
-                                <a id="Work Experience" className="menu-item" style={styles.linkText} href="/work-experience">Work Experience</a>
-                                <a id="Coding" className="menu-items" style={styles.linkText} href="/coding">Coding Stack</a>
-                                <a id="Projects" className="menu-items" style={styles.linkText} href="/projects">Projects</a>
-                                <a id="Misc" className="menu-item" style={styles.linkText} href="/misc">Misc</a>
-                                <a id="Contact" className="menu-item" style={styles.linkText} href="/contact">Contact</a>
+                                <a id="Education" className="menu-item" style={styles.linkText} href="/education-mobile">Education</a>
+                                <a id="Work Experience" className="menu-item" style={styles.linkText} href="/work-experience-mobile">Work Experience</a>
+                                <a id="Coding" className="menu-items" style={styles.linkText} href="/coding-mobile">Coding Stack</a>
+                                <a id="Projects" className="menu-items" style={styles.linkText} href="/projects-mobile">Projects</a>
+                                <a id="Misc" className="menu-item" style={styles.linkText} href="/misc-mobile">Misc</a>
+                                <a id="Contact" className="menu-item" style={styles.linkText} href="/contact-mobile">Contact</a>
                             </Menu>
                             <p style={{ margin: '0 0 0 20vw' }}>Christopher Brindle - Full Stack Web Developer</p>
                         </div>
