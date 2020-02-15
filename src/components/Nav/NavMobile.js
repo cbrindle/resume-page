@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { bubble as Menu } from 'react-burger-menu';
-import { FaBars } from 'react-icons/fa';
 
 export default class NavMobile extends Component {
 
