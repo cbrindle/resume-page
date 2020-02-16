@@ -39,6 +39,7 @@ a:visited {
   color: gray;
   font-size: 0.7em;
   text-align: center;
+  margin: 0 0 5vh 0;
 }
 
 .accomplishments li {
