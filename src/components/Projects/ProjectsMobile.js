@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import tfsProjectImg from '../../images/tfsProjectImg.png';
 import sincgarsLogo from '../../images/sincgarsLogo.png';
+import brindleProjects from '../../images/brindle-projects.png';
 
 export default class ProjectsMobile extends Component {
     render() {
@@ -30,6 +31,31 @@ export default class ProjectsMobile extends Component {
                         <p>Github Repo: <a href="https://github.com/cbrindle/tales-from-swiftfell" target="_blank" rel="noopener noreferrer">Click Here</a></p>
                     </div>
                 </div>
+
+                <div style={styles.projectContainer}>
+                    <div style={styles.projectTop}>
+                        <h3><u>SINCGARS Streaming</u></h3>
+                        <p>Sinc. Streaming is a simple, yet highly adaptable radio streaming app. Built with React, with database support from MongoDB, Sinc. Streaming can utilize any streaming URL and play it. A user can create an account, pick favorite stations, and listen for hours to their customized content.</p>
+                    </div>
+                    <div style={styles.projectImgSection}>
+                        <img src={sincgarsLogo} style={styles.projectImg} alt="SINCGARS Streaming landing page logo" />
+                    </div>
+                    <div style={styles.projectBottom}>
+                        <ul className="project-listItems">
+                            <li>Full Stack Web app that plays streaming radio channels</li>
+                            <li>React used for Front-end</li>
+                            <li>Single Page Application</li>
+                        </ul>
+                        <p>Website: <a href="https://github.com/doc1atis/RadioApp" target="_blank" rel="noopener noreferrer">SINCGARS Streaming</a></p>
+                        <p>Github Repo: <a href="https://github.com/doc1atis/RadioApp" target="_blank" rel="noopener noreferrer">Click Here</a></p>
+                    </div>
+                    <div style={styles.projectImgSection}>
+                        <img src={sincgarsLogo} style={styles.projectImg} alt="SINCGARS Streaming landing page logo" />
+                    </div>
+                </div>
+
+                <img src={brindleProjects} alt="Bitnoji of brindle working on a project" />
+                <p className="mobile-view-text">You are currently viewing this page on a mobile device. Switch to a desk/laptop to see the full version.</p>
             </div>
         )
     }
