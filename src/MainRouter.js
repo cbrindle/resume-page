@@ -15,6 +15,7 @@ const CodingAlt = React.lazy(() => import('./components/Coding/CodingAlt'));
 const HomeMobile = React.lazy(() => import('./components/Home/HomeMobile'));
 const EducationMobile = React.lazy(() => import('./components/Education/EducationMobile'));
 const WorkExpMobile = React.lazy(() => import('./components/WorkExp/WorkExpMobile'));
+const ProjectsMobile = React.lazy(() => import('./components/Projects/ProjectsMobile'));
 const CodingMobile = React.lazy(() => import('./components/Coding/CodingMobile'));
 const ContactMobile = React.lazy(() => import('./components/Contact/ContactMobile'));
 const MiscMobile = React.lazy(() => import('./components/Misc/MiscMobile'));
@@ -34,6 +35,7 @@ export default class MainRouter extends Component {
                                         <Route exact path="/education-mobile" component={EducationMobile} />
                                         <Route exact path="/work-experience-mobile" component={WorkExpMobile} />
                                         <Route exact path="/coding-mobile" component={CodingMobile} />
+                                        <Route exact path="/projects.mobile" component={ProjectsMobile} />
                                         <Route exact path="/contact-mobile" component={ContactMobile} />
                                         <Route exact path="/mics-mobile" component={MiscMobile} />
                                     </>

@@ -44,7 +44,7 @@ export default class Projects extends Component {
                                 <li>Single Page Application</li>
                             </ul>
                             <p>Website: <a href="https://github.com/doc1atis/RadioApp" target="_blank">SINCGARS Streaming</a></p>
-                            <p>Github Reop: <a href="https://github.com/doc1atis/RadioApp" target="_blank">Click Here</a></p>
+                            <p>Github Repo: <a href="https://github.com/doc1atis/RadioApp" target="_blank">Click Here</a></p>
                         </div>
                         <div style={styles.projectImgSection}>
                             <img src={sincgarsLogo} style={styles.projectImg} alt="Webpage landing image for SINCGARS Streaming app" />
