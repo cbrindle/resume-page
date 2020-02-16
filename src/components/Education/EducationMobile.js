@@ -5,12 +5,12 @@ import uccMobile from '../../images/uccMobile.png';
 import brindleSchool from '../../images/brindle-school.png';
 import CImobile from './CImobile';
 import SetonMobile from './SetonMobile';
-import UccMobile from './SetonMobile';
+import UccMobile from './UccMobile';
 
 export default class EducationMobile extends Component {
 
     state = {
-        showCI: true,
+        showCI: false,
         showSetonHall: false,
         showUCC: false
     }
@@ -19,6 +19,9 @@ export default class EducationMobile extends Component {
         this.setState({
             [event.target.id]: !this.state[event.target.id]
         })
+        // if (this.state[event.target.id] === true) {
+        //     document.querySelector(`#${event.target.id}`).scrollIntoView();
+        // }
     }
 
 
@@ -57,7 +60,7 @@ export default class EducationMobile extends Component {
                     <img id="showUCC" src={uccMobile} style={styles.schoolLogo} onClick={this.showSchool} alt="Union County College logo" />
                 </div>
                 <div>
-                    {this.state.showUCC ? <UccMobile /> : null}
+                    {this.state.showUCC ? <UccMobile close={this.showSchool} /> : null}
                 </div>
 
                 <br />
