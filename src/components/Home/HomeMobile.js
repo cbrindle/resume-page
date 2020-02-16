@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import brindleIcon from '../../images/brindle-icon.png';
+import welcomeMobile from '../../images/welcomeMobile.png';
 
 export default class HomeMobile extends Component {
     render() {
         return (
             <div style={styles.main}>
 
-                <h1 style={{ textAlign: 'center' }}>Welcome</h1>
+                <img src={welcomeMobile} style={{ marginTop: '2vh' }} alt="A welcome text image with Brindle bitmoji leaning against it" />
 
                 <p> I learned early on in life that amateurs work at something until they get it right; professionals will work at it until they can't get it wrong.</p>
 
