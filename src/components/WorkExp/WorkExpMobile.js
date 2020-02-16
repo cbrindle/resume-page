@@ -22,6 +22,14 @@ export default class WorkExpMobile extends Component {
 
 
 
+                <img src={tagJob} style={styles.jobImg} alt="TAG Heuer job experience logo" />
+
+
+
+                <img src={armyJob} style={styles.jobImg} alt="Army job experience logo" />
+
+
+
                 <img src={brindleCoffee} alt="Bitmoji of Brindle leaning against a wall drinking coffee" />
                 <p className="mobile-view-text">You are currently viewing this page on a mobile device. Switch to a desk/laptop to see the full version.</p>
             </div>
