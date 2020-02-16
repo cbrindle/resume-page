@@ -34,3 +34,9 @@ a:visited {
   text-decoration: none;
   color: blue
 }
+
+.mobile-view{
+  color: gray;
+  font-size: 0.7em;
+  text-align: center;
+}

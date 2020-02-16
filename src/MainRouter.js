@@ -1,5 +1,3 @@
-// TODO: Fix SPA routing to be in compliance with Netlify
-
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Nav from './components/Nav/Nav';

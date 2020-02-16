@@ -19,6 +19,7 @@ export default class HomeMobile extends Component {
                 <p>To see more, please feel free to follow the link to my Github to have a look at what I'm working on, or email me anytime.</p>
 
                 <img src={brindleIcon} alt="Brindle bitmoji icon" />
+                <p className="mobile-view">You are currently viewing this page on a mobile device. Switch to a desk/laptop to see the full version.</p>
             </div >
         )
     }
