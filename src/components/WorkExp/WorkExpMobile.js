@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import brindleCoffee from '../../images/brindle-coffee.png';
+import fullStackJob from '../../images/fullStackJobMod.jpg';
+import sisJob from '../../images/sisJob.png';
+import tagJob from '../../images/tagJob.jpg';
+import armyJob from '../../images/armyJob.jpg';
 
 export default class WorkExpMobile extends Component {
     render() {
@@ -8,7 +12,13 @@ export default class WorkExpMobile extends Component {
                 <h1 style={{ textAlign: 'center' }}>
                     Work Experience
                 </h1>
-                <p>Find out more about my past work experience and professional achievements.</p>
+                <p style={{ marginBottom: '7vh' }}>Find out more about my past work experience and professional achievements.</p>
+
+                <img src={fullStackJob} style={styles.jobImg} alt="Full stack job experience logo" />
+
+
+
+                <img src={sisJob} style={styles.jobImg} alt="SIS job experience logo" />
 
 
 
@@ -26,5 +36,11 @@ const styles = {
         padding: '0 5vw 0 5vw',
         fontSize: '1.2em',
         overflowY: 'scroll'
+    },
+    jobImg: {
+        height: '30vh',
+        width: '100%',
+        borderRadius: '5px',
+        marginBottom: '8vh'
     }
 }

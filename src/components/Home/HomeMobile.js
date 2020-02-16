@@ -7,7 +7,7 @@ export default class HomeMobile extends Component {
         return (
             <div style={styles.main}>
 
-                <img src={welcomeMobile} style={{ marginTop: '2vh' }} alt="A welcome text image with Brindle bitmoji leaning against it" />
+                <img src={welcomeMobile} style={{ marginTop: '2vh' }} alt="A welcome text logo with Brindle bitmoji leaning against it" />
 
                 <p> I learned early on in life that amateurs work at something until they get it right; professionals will work at it until they can't get it wrong.</p>
 
