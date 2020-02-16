@@ -12,11 +12,11 @@ export default class Contact extends Component {
                     <h1 style={styles.title}>Contact</h1>
                 </div>
                 <div style={styles.centerContent}>
-                    <div style={{textAlign:'center', fontSize:'1.4em'}}>
-                        <p><b><u>Email:</u></b> <a href="mailto:cbrindleusa@gmail.com?Subject=Resume%20Page%20Email"><i>cbrindleusa@gmail.com</i></a></p>                        
+                    <div style={{ textAlign: 'center', fontSize: '1.4em' }}>
+                        <p><b><u>Email:</u></b> <a href="mailto:cbrindleusa@gmail.com?Subject=Resume%20Page%20Email"><i>cbrindleusa@gmail.com</i></a></p>
                     </div>
                     <br />
-                    <div style={{textAlign:'center', fontSize: '1.6em'}}>
+                    <div style={{ textAlign: 'center', fontSize: '1.6em' }}>
                         <p>Thank you for visiting my resume page. Feel free to contact me at any time at the contact information listed above. If you want to learn more about me in the mean time, you can follow the links at the bottom of the page to my LinkedIn Page, Github Repo, and to Tales from Swiftfell (a browser-based Role-Playing Game I created).</p>
 
                         <p>You can also <a href="https://drive.google.com/open?id=1xJBu1GWLXfmCE0WeWbP_KxTE_4n3tjqB" download>Click Here</a> to download a one-page, PDF version of my resume.</p>
