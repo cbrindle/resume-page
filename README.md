@@ -1,4 +1,6 @@
 # Christopher Brindle
+
+View resume page at hirebrindle.com
 ### Full-Stack Web Developer
 
 
