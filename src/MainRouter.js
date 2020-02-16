@@ -35,9 +35,9 @@ export default class MainRouter extends Component {
                                         <Route exact path="/education-mobile" component={EducationMobile} />
                                         <Route exact path="/work-experience-mobile" component={WorkExpMobile} />
                                         <Route exact path="/coding-mobile" component={CodingMobile} />
-                                        <Route exact path="/projects.mobile" component={ProjectsMobile} />
+                                        <Route exact path="/projects-mobile" component={ProjectsMobile} />
                                         <Route exact path="/contact-mobile" component={ContactMobile} />
-                                        <Route exact path="/mics-mobile" component={MiscMobile} />
+                                        <Route exact path="/misc-mobile" component={MiscMobile} />
                                     </>
                                 )
                                 :

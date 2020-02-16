@@ -23,11 +23,11 @@ export default class Projects extends Component {
                                 <li>EJS / Javascript Coding for Front-end</li>
                                 <li>Database maintained with MongoDB</li>
                             </ul>
-                            <p>Website: <a href="http://tfs-chapter1.herokuapp.com" target="_blank">Tales from Swiftfell</a></p>
-                            <p>Github Repo: <a href="https://github.com/cbrindle/tales-from-swiftfell" target="_blank">Click Here</a></p>
+                            <p>Website: <a href="http://tfs-chapter1.herokuapp.com" target="_blank" rel="noopener noreferrer">Tales from Swiftfell</a></p>
+                            <p>Github Repo: <a href="https://github.com/cbrindle/tales-from-swiftfell" target="_blank" rel="noopener noreferrer">Click Here</a></p>
                         </div>
                         <div style={styles.projectImgSection}>
-                            <img src={tfsProjectImg} style={styles.projectImg} alt="Webpage landing image for Tales from Swiftfell" />
+                            <img src={tfsProjectImg} style={styles.projectImg} alt="Tales from Swiftfell landing page logo" />
                         </div>
                     </div>
 
@@ -43,11 +43,11 @@ export default class Projects extends Component {
                                 <li>React used for Front-end</li>
                                 <li>Single Page Application</li>
                             </ul>
-                            <p>Website: <a href="https://github.com/doc1atis/RadioApp" target="_blank">SINCGARS Streaming</a></p>
-                            <p>Github Repo: <a href="https://github.com/doc1atis/RadioApp" target="_blank">Click Here</a></p>
+                            <p>Website: <a href="https://github.com/doc1atis/RadioApp" target="_blank" rel="noopener noreferrer">SINCGARS Streaming</a></p>
+                            <p>Github Repo: <a href="https://github.com/doc1atis/RadioApp" target="_blank" rel="noopener noreferrer">Click Here</a></p>
                         </div>
                         <div style={styles.projectImgSection}>
-                            <img src={sincgarsLogo} style={styles.projectImg} alt="Webpage landing image for SINCGARS Streaming app" />
+                            <img src={sincgarsLogo} style={styles.projectImg} alt="SINCGARS Streaming landing page logo" />
                         </div>
                     </div>
                 </div>
