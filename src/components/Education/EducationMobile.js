@@ -10,7 +10,7 @@ import UccMobile from './SetonMobile';
 export default class EducationMobile extends Component {
 
     state = {
-        showCI: false,
+        showCI: true,
         showSetonHall: false,
         showUCC: false
     }
@@ -37,7 +37,7 @@ export default class EducationMobile extends Component {
                     <img id="showCI" src={ciLogo} style={styles.schoolLogo} onClick={this.showSchool} alt='Code Immersives logo' />
                 </div>
                 <div style={styles.schoolMain}>
-                    {this.state.showCI ? <CImobile /> : null}
+                    {this.state.showCI ? <CImobile close={this.showSchool} /> : null}
                 </div>
 
 
@@ -47,7 +47,7 @@ export default class EducationMobile extends Component {
                     <img id="showSetonHall" src={shMobile} alt="Seton Hall University logo" style={styles.schoolLogo} onClick={this.showSchool} />
                 </div>
                 <div>
-                    {this.state.showSetonHall ? <SetonMobile /> : null}
+                    {this.state.showSetonHall ? <SetonMobile close={this.showSchool} /> : null}
                 </div>
 
 
