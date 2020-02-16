@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import brindleProjects from '../../images/brindle-projects.png';
 import tfsProjectImg from '../../images/tfsProjectImg.png';
+import sincgarsLogo from '../../images/sincgarsLogo.png';
 
 export default class Projects extends Component {
     render() {
@@ -18,7 +19,7 @@ export default class Projects extends Component {
                         </div>
                         <div style={styles.projectTextBottom}>
                             <ul className="project-listItems">
-                                <li>Full Stack Web app. Game runs entirely in browser.</li>
+                                <li>Full Stack Web app; game runs entirely in browser</li>
                                 <li>EJS / Javascript Coding for Front-end</li>
                                 <li>Database maintained with MongoDB</li>
                             </ul>
@@ -27,6 +28,26 @@ export default class Projects extends Component {
                         </div>
                         <div style={styles.projectImgSection}>
                             <img src={tfsProjectImg} style={styles.projectImg} alt="Webpage landing image for Tales from Swiftfell" />
+                        </div>
+                    </div>
+
+
+                    <div style={styles.projectContainer}>
+                        <div style={styles.projectTextTop}>
+                            <h3><u>SINCGARS Streaming</u></h3>
+                            <p>Sinc. Streaming is a simple, yet highly adaptable radio streaming app. Built with React, with database support from MongoDB, Sinc. Streaming can utilize any streaming URL and play it. A user can create an account, pick favorite stations, and listen for hours to their customized content.</p>
+                        </div>
+                        <div style={styles.projectTextBottom}>
+                            <ul className="project-listItems">
+                                <li>Full Stack Web app that plays streaming radio channels</li>
+                                <li>React used for Front-end</li>
+                                <li>Single Page Application</li>
+                            </ul>
+                            <p>Website: <a href="https://github.com/doc1atis/RadioApp" target="_blank">SINCGARS Streaming</a></p>
+                            <p>Github Reop: <a href="https://github.com/doc1atis/RadioApp" target="_blank">Click Here</a></p>
+                        </div>
+                        <div style={styles.projectImgSection}>
+                            <img src={sincgarsLogo} style={styles.projectImg} alt="Webpage landing image for SINCGARS Streaming app" />
                         </div>
                     </div>
                 </div>
@@ -81,7 +102,7 @@ const styles = {
         display: 'grid',
         gridTemplateRows: '50% 50%',
         gridTemplateColumns: '40% 60%',
-        margin: '0 0 5vh 0',
+        margin: '0 0 10vh 0',
         border: '1px solid black',
         borderRadius: '5px',
         backgroundImage: 'linear-gradient(to bottom right, lightgray, rgba(255,255,255,0.3))'
