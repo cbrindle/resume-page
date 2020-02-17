@@ -13,7 +13,7 @@ export default class WorkExpMobile extends Component {
 
 
     state = {
-        showFreelance: true,
+        showFreelance: false,
         showSIS: false,
         showTAG: false,
         showArmy: false
@@ -46,7 +46,7 @@ export default class WorkExpMobile extends Component {
 
                 <img id="showTAG" onClick={this.showJob} src={tagJob} style={styles.jobImg} alt="TAG Heuer job experience logo" />
 
-                {this.state.showTAG ? <TagHeuerMobile close={this.show} /> : null}
+                {this.state.showTAG ? <TagHeuerMobile close={this.showJob} /> : null}
 
 
                 <img id="showArmy" onClick={this.showJob} src={armyJob} style={styles.jobImg} alt="Army job experience logo" />
