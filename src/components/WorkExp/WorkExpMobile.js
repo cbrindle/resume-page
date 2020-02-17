@@ -10,7 +10,7 @@ export default class WorkExpMobile extends Component {
 
 
     state = {
-        showFreelance: false,
+        showFreelance: true,
         showSIS: false,
         showTAG: false,
         showArmy: false
