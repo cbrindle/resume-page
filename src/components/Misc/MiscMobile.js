@@ -10,7 +10,7 @@ import TravelMobile from './TravelMobile';
 export default class MiscMobile extends Component {
 
     state = {
-        showRugby: false,
+        showRugby: true,
         showHI: false,
         showTravel: false
     }
@@ -18,9 +18,14 @@ export default class MiscMobile extends Component {
     showHobby = (event) => {
         this.setState({
             [event.target.id]: !this.state[event.target.id]
-        })
+        }, this.scrollOnClose(event))
     }
 
+    scrollOnClose = (event) => {
+        if (this.state[event.target.id] === true) {
+            document.querySelector(`#${event.target.id}`).scrollIntoView();
+        }
+    }
 
     render() {
         return (
