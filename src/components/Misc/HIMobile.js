@@ -10,7 +10,7 @@ export default class HIMobile extends Component {
                     <p>Closing on my home purchase was only the first chapter. On top of a number of out-dated aesthetic design choices, the home inspection during the contract process reviled a number of significant electrical issues. Half of the first floor and the entire second floor had to be gutted, removing all the old plaster and lath walls to expose and remedy the problems. The amount of work that needed to be done was quickly becoming expensive. Fortunately, I was able to get a HUGE amount of help and know-how from my father and a few of his friends. Slowly but surely, I was able to do the majority of work myself, keeping costs down and eventually transforming the house into my <i>home.</i></p>
                 </div>
                 <div style={styles.imageSection}>
-                    <img src={homeImprovement} style={styles.hobbyImg} alt="Brindle about to get tackled" />
+                    <img src={homeImprovement} style={styles.hobbyImg} alt="Brindle sitting on the stoop of his home after a long project" />
                 </div>
                 <div style={styles.closeSection}>
                     <button id="showHI" type="button" onClick={this.props.close} style={styles.closeButton}>Close</button>

@@ -11,7 +11,7 @@ export default class MiscMobile extends Component {
 
     state = {
         showRugby: false,
-        showHI: true,
+        showHI: false,
         showTravel: false
     }
 
