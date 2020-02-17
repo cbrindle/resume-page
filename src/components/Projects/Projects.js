@@ -19,8 +19,8 @@ export default class Projects extends Component {
                         </div>
                         <div style={styles.projectTextBottom}>
                             <ul className="project-listItems">
-                                <li>Full Stack Web app; game runs entirely in browser</li>
-                                <li>EJS / Javascript Coding for Front-end</li>
+                                <li>Full Stack Web app - game runs entirely in browser</li>
+                                <li>EJS / Javascript Coding for Front-End</li>
                                 <li>Database maintained with MongoDB</li>
                             </ul>
                             <p>Website: <a href="http://tfs-chapter1.herokuapp.com" target="_blank" rel="noopener noreferrer">Tales from Swiftfell</a></p>
@@ -40,7 +40,7 @@ export default class Projects extends Component {
                         <div style={styles.projectTextBottom}>
                             <ul className="project-listItems">
                                 <li>Full Stack Web app that plays streaming radio channels</li>
-                                <li>React used for Front-end</li>
+                                <li>React used for Front-End</li>
                                 <li>Single Page Application</li>
                             </ul>
                             <p>Website: <a href="https://github.com/doc1atis/RadioApp" target="_blank" rel="noopener noreferrer">SINCGARS Streaming</a></p>

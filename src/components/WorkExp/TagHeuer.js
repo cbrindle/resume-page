@@ -12,20 +12,20 @@ export default class TagHeuer extends Component {
                     <p>Description</p>
                 </div>
                 <div style={styles.descriptionRight}>
-                    <p>In order for a jeweler or retailer to be able to sell TAH Heuer luxury time pieces, sales associates must undergo professional training concerning product knowledge, history, marketing, and customer service. The E-Learning Administrator is responsible for overseeing that program.</p>
+                    <p>In order for a jeweler or retailer to be able to sell TAG Heuer luxury time pieces, sales associates must undergo professional training concerning product knowledge, history, marketing, and customer service. The E-Learning Administrator is responsible for overseeing that program.</p>
                 </div>
                 <div style={styles.duties}>
                     <p>Duties</p>
                 </div>
                 <div style={styles.dutiesRight}>
-                    <ul style={{margin: 'auto'}}>
-                        <li>Responsible for building and maintaining a user database for an online retail training platform that services the United States and Canada, containing over 7,000 users.</li>
+                    <ul style={{ margin: 'auto' }}>
+                        <li>Was responsible for building and maintaining a user database for an online retail training platform that services the United States and Canada, containing over 7,000 users.</li>
                         <br />
 
-                        <li>Provide prompt and effective trouble-shooting solutions to user-end issues with platform interaction and website interfacing.</li>
+                        <li>Provided prompt and effective trouble-shooting solutions to user-end issues with platform interaction and website interfacing.</li>
                         <br />
 
-                        <li>Advise and assist management elements in the improvement of the training program by developing and implementing innovative procedures.</li>
+                        <li>Advised and assisted management elements in the improvement of the training program by developing and implementing innovative procedures.</li>
                     </ul>
                 </div>
                 <div style={styles.buttonArea}>

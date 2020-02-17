@@ -18,14 +18,14 @@ export default class SIS extends Component {
                     <p>Duties</p>
                 </div>
                 <div style={styles.dutiesRight}>
-                    <ul style={{margin: 'auto'}}>
-                        <li>Responsible for the hiring, training, scheduling, deployment, and management of an 80 person unarmed securit specialist team across multiple luxury boutiques and Fortune 500 retail clients</li>
+                    <ul style={{ margin: 'auto' }}>
+                        <li>Was responsible for the hiring, training, scheduling, deployment, and management of an 80-person unarmed Security Specialist team across multiple luxury boutiques and Fortune 500 retail clients.</li>
                         <br />
 
-                        <li>Maintained relationships with client management teams to ensure services being provided comply with the company’s quality standards, needs, and operational picture.</li>
+                        <li>Maintained relationships with client management teams to ensure services provided comply with the company’s quality standards, needs, and operational picture.</li>
                         <br />
 
-                        <li>Identify needs for, and provide, professional development training in areas such as basic and advanced security skills, leadership, loss prevention, and client specific policies and procedures.</li>
+                        <li>Identified needs for, and provide, professional development training in areas such as basic and advanced security skills, leadership, loss prevention, and client specific policies and procedures.</li>
                     </ul>
                 </div>
                 <div style={styles.buttonArea}>

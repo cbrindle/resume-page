@@ -13,15 +13,15 @@ export default class CodingAlt extends Component {
                     <div style={styles.centerContent}>
                         <img src={mernStackLogo} style={styles.mernImg} alt="MERN coding stack logo" />
 
-                        <p style={styles.mernDescription}><b>MERN</b> Stack is a Javascript Stack that is used for easier and faster deployment of full-stack web applications. MERN Stack comprises of 4 technologies namely: MongoDB, Express, React and Node.js. It is designed to make the development process smoother and easier.</p>
+                        <p style={styles.mernDescription}><b>MERN</b> Stack is a Javascript Stack that is used for easier and faster deployment of full-stack web applications. MERN Stack comprises of namely 4 technologies: MongoDB, Express, React and Node.js. It is designed to make the development process smoother and easier.</p>
 
-                        <p style={styles.mernDescription}>Each of these 4 powerful technologies provides an end-to-end framework for the developers to work in and each of these technologies play a big part in the development of web applications.</p>
+                        <p style={styles.mernDescription}>Each of these 4 powerful technologies provides an end-to-end framework for the developers to work in and each of these technologies plays a big part in the development of web applications.</p>
 
 
                         <h1 style={styles.codeTitle}>MongoDB:</h1>
                         <p style={styles.codePara}>"MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the cloud era."</p>
 
-                        <p style={styles.codePara}>What I like about MongoDB is that it is not a relational database. Typical SQL databases organize their data into tables and rows. I feel this can be constricting when you are trying to create a database to serve your exact needs. MongoDB, instead, organizes its data into JSON document, making querying the data much more dynamic.</p>
+                        <p style={styles.codePara}>What I like about MongoDB is that it is not a relational database. Typical SQL databases organize their data into tables and rows. I feel this can be constricting when you are trying to create a database to serve your exact needs. MongoDB, instead, organizes its data into JSON documents, making querying the data much more dynamic.</p>
 
 
 
@@ -35,7 +35,7 @@ export default class CodingAlt extends Component {
                         <h1 style={styles.codeTitle}>React:</h1>
                         <p style={styles.codePara}>"React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications."</p>
 
-                        <p style={styles.codePara}>React is all about putting the user experience first. By loading and switching out components rather than making an entirely new request to a server to display content, React provides a cleaner, seamless, and overall more pleasant user experience.</p>
+                        <p style={styles.codePara}>React is all about putting the user experience first. By loading and switching out components, rather than making an entirely new request to a server to display content, React provides a cleaner, seamless, and overall more pleasant user experience.</p>
 
 
 

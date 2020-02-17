@@ -8,7 +8,7 @@ export default class CImobile extends Component {
                     <h1>About the Program</h1>
                 </div>
                 <div style={styles.aboutSection}>
-                    <p>The program’s curriculum is divided into three areas of study: criminalization (the creation and enforcement of criminal law); criminality (the causes, correlates and amounts of crime); and corrections (the punishment and treatment of offenders). You’ll learn from instructors who have lived what they’re teaching — experts with doctoral degrees who have worked as probation officers, criminal profilers and murder trial consultants.</p>
+                    <p>"The program’s curriculum is divided into three areas of study: criminalization (the creation and enforcement of criminal law); criminality (the causes, correlates and amounts of crime); and corrections (the punishment and treatment of offenders). I've learn from instructors who have lived what they’re teaching — experts with doctoral degrees who have worked as probation officers, criminal profilers and murder trial consultants."</p>
                 </div>
                 <div style={styles.title2}>
                     <h1>Accomplishments</h1>

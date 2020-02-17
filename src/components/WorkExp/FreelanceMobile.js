@@ -14,13 +14,13 @@ export default class FreelanceMobile extends Component {
                 </div>
                 <div style={styles.jobBullets}>
                     <ul>
-                        <li>Utilizing MERN (MongoDB, Express.js, React, Node.js) stack, create pixel-perfect custom web pages and apps that are fully responsive to both desktop and mobile viewing.</li>
+                        <li>Utilizes MERN (MongoDB, Express.js, React, Node.js) stack, create pixel-perfect custom web pages and apps that are fully responsive to both desktop and mobile viewing.</li>
                         <br />
 
-                        <li>Advanced level of knowledge and application of Javascript, HTML, and CSS.</li>
+                        <li>Implements expert level of knowledge and application of Javascript, HTML, and CSS when developing projects.</li>
                         <br />
 
-                        <li>Conducts meetings with clients to determine their web application needs, translate them into clean, modern, and visually appealing code, and maintain the product to optimize its effectiveness in the ever evolving field of technology.</li>
+                        <li>Conducts meetings with clients to determine their web application needs, translates them into clean, modern, and visually appealing code, and maintains the product to optimize its effectiveness in the ever-evolving field of technology.</li>
                     </ul>
                 </div>
                 <div style={styles.closeSection}>

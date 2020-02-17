@@ -29,7 +29,7 @@ export default class Travel extends Component {
                             <p>I found myself stationed in Vicenza, Italy during the last four years of my enlistment in the US Army. This northern Italian locale was essentially a central hub for me to the rest of Europe, perfect for exploration. I was able to experience the sites, cultures, and cuisine of many different nations, including Germany, France, Poland, Prague, Czech Republic, Croatia, Japan, Thailand, Budapest, and many more.</p>
                         </div>
                         <div style={styles.bottomText}>
-                            <p>What I enjoyed most about travel is the exposure to different people and cultures. Getting a chance to see the world through another individual's perspective and way of live has shaped me into someone who takes into account empathy of others when determining a solution to a problem.</p>
+                            <p>What I enjoyed most about travel is the exposure to different people and cultures. Getting a chance to see the world through another individual's perspective and way of life has shaped me into someone who empathizes with others when determining a solution to a problem.</p>
                         </div>
                     </div>
 

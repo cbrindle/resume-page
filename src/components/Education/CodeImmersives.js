@@ -24,7 +24,7 @@ export default class CodeImmersives extends Component {
                         </div>
                         <div style={styles.contentLeft}>
                             <div>
-                                <p><u>Date Attended</u></p>
+                                <p><u>Dates Attended</u></p>
                                 <p>May 2019 to May 2020</p>
                             </div>
                             <div>
@@ -37,9 +37,9 @@ export default class CodeImmersives extends Component {
                             </div>
                         </div>
                         <div style={styles.contentRight}>
-                            <p>The Code Immersive Web Development Intensive program helps students develop the technical skills required to pursue the opportunities that exist in the fast-growing web programming and software development industry. Code Immersive students are in the classroom for 45 weeks over the 900-hour, year-long, three-semester program. Contrast this with the typical coding bootcamp which lasts only 13-17 weeks.</p>
+                            <p>"The Code Immersive Web Development Intensive program helps students develop the technical skills required to pursue the opportunities that exist in the fast-growing web programming and software development industry. Code Immersive students are in the classroom for 45 weeks over the 900-hour, year-long, three-semester program. Contrast this with the typical coding bootcamp which lasts only 13-17 weeks."</p>
 
-                            <p>Code Immersive is dedicated to providing students with the programming skills they need to enter the digital job market or advance their existing careers.</p>
+                            <p>"Code Immersive is dedicated to providing students with the programming skills they need to enter the digital job market or advance their existing careers."</p>
                         </div>
                         <div style={styles.closeArea}>
                             <button id="showCodeImmersives" type="button" onClick={this.props.closeModal} style={styles.closeButton}>Close</button>

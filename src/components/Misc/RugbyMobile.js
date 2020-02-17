@@ -7,7 +7,7 @@ export default class RugbyMobile extends Component {
             <div style={styles.main}>
                 <div style={styles.descriptionSection}>
                     <h3 style={{ marginBottom: '0' }}>Union County Rugby Football Club:</h3>
-                    <p>Founded in the Fall of 1974, by Boston College Alumni Jerry Rotella and Hank Hanson, together with a contingent of local novices wearing uniforms of blue and orange, Union County Rugby Football Club finished its inaugural season 5-0-1. The mission of this Club is to continue this tradition of excellence and advance the sport of rugby to any and all that have a desire to join the Club regardless of race, sex, religion, color, creed, social standing, sexual orientation or physical ability.</p>
+                    <p>"Founded in the fall of 1974, by Boston College alumni Jerry Rotella and Hank Hanson, together with a contingent of local novices wearing uniforms of blue and orange, Union County Rugby Football Club finished its inaugural season 5-0-1. The mission of this Club is to continue this tradition of excellence and advance the sport of rugby to any and all that have a desire to join the Club regardless of race, sex, religion, color, creed, social standing, sexual orientation or physical ability."</p>
                 </div>
                 <div style={styles.imageSection}>
                     <img src={rugbyTackle} style={styles.hobbyImg} alt="Brindle about to get tackled" />

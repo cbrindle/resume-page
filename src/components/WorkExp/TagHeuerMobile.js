@@ -14,13 +14,13 @@ export default class TagHeuerMobile extends Component {
                 </div>
                 <div style={styles.jobBullets}>
                     <ul>
-                        <li>Responsible for building and maintaining a user database for an online retail training platform that services the United States and Canada, containing over 7,000 users.</li>
+                        <li>Was responsible for building and maintaining a user database for an online retail training platform that services the United States and Canada, containing over 7,000 users.</li>
                         <br />
 
-                        <li>Provide prompt and effective trouble-shooting solutions to user-end issues with platform interaction and website interfacing.</li>
+                        <li>Provided prompt and effective trouble-shooting solutions to user-end issues with platform interaction and website interfacing.</li>
                         <br />
 
-                        <li>Advise and assist management elements in the improvement of the training program by developing and implementing innovative procedures.</li>
+                        <li>Advised and assisted management elements in the improvement of the training program by developing and implementing innovative procedures.</li>
                     </ul>
                 </div>
                 <div style={styles.closeSection}>

@@ -24,7 +24,7 @@ export default class SetonHall extends Component {
                         </div>
                         <div style={styles.contentLeft}>
                             <div>
-                                <p><u>Date Attended</u></p>
+                                <p><u>Dates Attended</u></p>
                                 <p>Jan 2017 to May 2018</p>
                             </div>
                             <div>
@@ -37,9 +37,9 @@ export default class SetonHall extends Component {
                             </div>
                         </div>
                         <div style={styles.contentRight}>
-                            <p>One of the country's leading Catholic universities, Seton Hall University has been developing students in mind, heart and spirit since 1856. Home to over 10,000 undergraduate and graduate students and offering more than 90 rigorous majors, Seton Hall's academic excellence has been singled out for distinction by The Princeton Review, U.S. News & World Report and Bloomberg Businessweek.</p>
+                            <p>"One of the country's leading Catholic universities, Seton Hall University has been developing students in mind, heart, and spirit since 1856. Home to over 10,000 undergraduate and graduate students and offering more than 90 rigorous majors, Seton Hall's academic excellence has been singled out for distinction by The Princeton Review, U.S. News & World Report and Bloomberg Businessweek."</p>
 
-                            <p>With a 14:1 student-to-faculty ratio, our professors not only teach, but mentor you in your career endeavors. Seton Hall offers more than 17,000 internship opportunities to choose from.</p>
+                            <p>"With a 14:1 student-to-faculty ratio, professors not only teach, but mentor you in your career endeavors. Seton Hall offers more than 17,000 internship opportunities to choose from."</p>
                         </div>
                         <div style={styles.closeArea}>
                             <button id="showSetonHall" type="button" onClick={this.props.closeModal} style={styles.closeButton}>Close</button>
