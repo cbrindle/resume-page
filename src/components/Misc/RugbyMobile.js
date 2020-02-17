@@ -35,7 +35,6 @@ const styles = {
         gridArea: '1 / 1 / span 1 / span 1',
         display: 'flex',
         flexDirection: 'column',
-        // alignItems: 'center',
         justifyContent: 'center',
         padding: '0 2vw 0 2vw',
     },

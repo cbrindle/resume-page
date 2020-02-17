@@ -10,8 +10,8 @@ import TravelMobile from './TravelMobile';
 export default class MiscMobile extends Component {
 
     state = {
-        showRugby: true,
-        showHI: false,
+        showRugby: false,
+        showHI: true,
         showTravel: false
     }
 
