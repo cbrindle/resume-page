@@ -4,8 +4,25 @@ import fullStackJob from '../../images/fullStackJobMod.jpg';
 import sisJob from '../../images/sisJob.png';
 import tagJob from '../../images/tagJob.jpg';
 import armyJob from '../../images/armyJob.jpg';
+import FreelanceMobile from './FreelanceMobile';
 
 export default class WorkExpMobile extends Component {
+
+
+    state = {
+        showFreelance: false,
+        showSIS: false,
+        showTAG: false,
+        showArmy: false
+    }
+
+    showJob = (event) => {
+        this.setState({
+            [event.target.id]: !this.state[event.target.id]
+        })
+    }
+
+
     render() {
         return (
             <div style={styles.main}>
@@ -14,7 +31,9 @@ export default class WorkExpMobile extends Component {
                 </h1>
                 <p style={{ marginBottom: '7vh' }}>Find out more about my past work experience and professional achievements.</p>
 
-                <img src={fullStackJob} style={styles.jobImg} alt="Full stack job experience logo" />
+                <img id="showFreelance" onClick={this.showJob} src={fullStackJob} style={styles.jobImg} alt="Full stack job experience logo" />
+
+                {this.state.showFreelance ? <FreelanceMobile close={this.showJob} /> : null}
 
 
 

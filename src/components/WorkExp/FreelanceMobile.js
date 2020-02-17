@@ -16,7 +16,7 @@ export default class FreelanceMobile extends Component {
                     </ul>
                 </div>
                 <div style={styles.closeSection}>
-                    <button type="button" id="button" name="button">Close</button>
+                    <button type="button" id="showFreelance" name="button" onClick={this.props.close}>Close</button>
                 </div>
             </div>
         )
@@ -30,7 +30,8 @@ const styles = {
         display: 'grid',
         gridTemplateRows: '20% 20% 50% 10%',
         gridTemplateColumns: '100%',
-        backgroundImage: 'linear-gradient(to right. lightgray, rgba(255,255,255,0.3))'
+        backgroundImage: 'linear-gradient(to right, lightgray, rgba(255,255,255,0.3))',
+        margin: '0 0 5vh 0'
     },
     jobTitle: {
         gridArea: '1 / 1 / span 1 / span 1',
