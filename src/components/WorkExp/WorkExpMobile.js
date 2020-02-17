@@ -5,6 +5,7 @@ import sisJob from '../../images/sisJob.png';
 import tagJob from '../../images/tagJob.jpg';
 import armyJob from '../../images/armyJob.jpg';
 import FreelanceMobile from './FreelanceMobile';
+import SISMobile from './SISMobile';
 
 export default class WorkExpMobile extends Component {
 
@@ -36,9 +37,9 @@ export default class WorkExpMobile extends Component {
                 {this.state.showFreelance ? <FreelanceMobile close={this.showJob} /> : null}
 
 
+                <img id="showSIS" onClick={this.showJob} src={sisJob} style={styles.jobImg} alt="SIS job experience logo" />
 
-                <img src={sisJob} style={styles.jobImg} alt="SIS job experience logo" />
-
+                {this.state.showSIS ? <SISMobile close={this.showJob} /> : null}
 
 
                 <img src={tagJob} style={styles.jobImg} alt="TAG Heuer job experience logo" />
