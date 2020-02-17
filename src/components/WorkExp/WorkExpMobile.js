@@ -6,6 +6,8 @@ import tagJob from '../../images/tagJob.jpg';
 import armyJob from '../../images/armyJob.jpg';
 import FreelanceMobile from './FreelanceMobile';
 import SISMobile from './SISMobile';
+import TagHeuerMobile from './TagHeuerMobile';
+import ArmyMobile from './ArmyMobile';
 
 export default class WorkExpMobile extends Component {
 
@@ -42,12 +44,14 @@ export default class WorkExpMobile extends Component {
                 {this.state.showSIS ? <SISMobile close={this.showJob} /> : null}
 
 
-                <img src={tagJob} style={styles.jobImg} alt="TAG Heuer job experience logo" />
+                <img id="showTAG" onClick={this.showJob} src={tagJob} style={styles.jobImg} alt="TAG Heuer job experience logo" />
+
+                {this.state.showTAG ? <TagHeuerMobile close={this.show} /> : null}
 
 
+                <img id="showArmy" onClick={this.showJob} src={armyJob} style={styles.jobImg} alt="Army job experience logo" />
 
-                <img src={armyJob} style={styles.jobImg} alt="Army job experience logo" />
-
+                {this.state.showArmy ? <ArmyMobile close={this.showJob} /> : null}
 
 
                 <img src={brindleCoffee} alt="Bitmoji of Brindle leaning against a wall drinking coffee" />
