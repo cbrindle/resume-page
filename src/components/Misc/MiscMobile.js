@@ -3,8 +3,25 @@ import brindleMisc from '../../images/brindle-misc.png';
 import hobbyRugby from '../../images/hobbyRugby.jpg';
 import hobbyTravel from '../../images/hobbyTravel.jpg';
 import hobbyHI from '../../images/hobbyHI.jpg';
+import RugbyMobile from './RugbyMobile';
+import HIMobile from './HIMobile';
+import TravelMobile from './TravelMobile';
 
 export default class MiscMobile extends Component {
+
+    state = {
+        showRugby: false,
+        showHI: false,
+        showTravel: false
+    }
+
+    showHobby = (event) => {
+        this.setState({
+            [event.target.id]: !this.state[event.target.id]
+        })
+    }
+
+
     render() {
         return (
             <div style={styles.main}>
@@ -13,11 +30,20 @@ export default class MiscMobile extends Component {
                 </h1>
                 <p>A few fun facts and hobbies of mine to let you get to know me better.</p>
 
-                <img src={hobbyRugby} style={styles.hobbyImg} alt="Brindle playing rugby" />
+                <img id="showRugby" src={hobbyRugby} style={styles.hobbyImg} onClick={this.showHobby} alt="Brindle playing rugby" />
 
-                <img src={hobbyHI} style={styles.hobbyImg} alt="Brindle standing in front of his home" />
+                {this.state.showRugby ? <RugbyMobile close={this.showHobby} /> : null}
 
-                <img src={hobbyTravel} style={styles.hobbyImg} alt="World map with pins representing places traveled" />
+
+                <img id="showHI" src={hobbyHI} style={styles.hobbyImg} onClick={this.showHobby} alt="Brindle standing in front of his home" />
+
+                {this.state.showHI ? <HIMobile close={this.showHobby} /> : null}
+
+
+                <img id="showTravel" src={hobbyTravel} style={styles.hobbyImg} onClick={this.showHobby} alt="World map with pins representing places traveled" />
+
+                {this.state.showTravel ? <TravelMobile close={this.showHobby} /> : null}
+
 
                 <img src={brindleMisc} style={styles.bitImg} alt="Bitnoji of Brindle parachuting in to cause trouble" />
                 <p className="mobile-view-text">You are currently viewing this page on a mobile device. Switch to a desk/laptop to see the full version.</p>
