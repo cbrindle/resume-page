@@ -33,7 +33,7 @@ export default class ArmyMobile extends Component {
 
 const styles = {
     main: {
-        height: '105vh',
+        height: '120vh',
         width: '98%',
         display: 'grid',
         gridTemplateRows: '17% 23% 53% 7%',

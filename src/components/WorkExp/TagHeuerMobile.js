@@ -33,7 +33,7 @@ export default class TagHeuerMobile extends Component {
 
 const styles = {
     main: {
-        height: '105vh',
+        height: '115vh',
         width: '98%',
         display: 'grid',
         gridTemplateRows: '17% 23% 53% 7%',
