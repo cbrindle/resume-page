@@ -10,7 +10,7 @@ export default class TagHeuerMobile extends Component {
                     <p style={{ margin: '0' }}><i>July 2016 - May 2018</i></p>
                 </div>
                 <div style={styles.jobDescription}>
-                    <p>In order for a jeweler or retailer to be able to sell TAH Heuer luxury time pieces, sales associates must undergo professional training concerning product knowledge, history, marketing, and customer service. The E-Learning Administrator is responsible for overseeing that program.</p>
+                    <p>In order for a jeweler or retailer to be able to sell TAG Heuer luxury time pieces, sales associates must undergo professional training concerning product knowledge, history, marketing, and customer service. The E-Learning Administrator is responsible for overseeing that program.</p>
                 </div>
                 <div style={styles.jobBullets}>
                     <ul>
