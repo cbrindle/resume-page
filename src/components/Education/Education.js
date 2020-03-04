@@ -24,33 +24,34 @@ export default class Education extends Component {
     render() {
         return (
             <>
-            <div>
-                <CodeImmersives open={this.state.showCodeImmersives} closeModal={this.showSchool} />
-                <SetonHall open={this.state.showSetonHall} closeModal={this.showSchool} />
-                <UCC open={this.state.showUCC} closeModal={this.showSchool} />
-            </div>
-            <div style={styles.main}>
-                <div style={styles.centerTop}>
-                    <h1 style={styles.title}>Education</h1>
+                <div>
+                    <CodeImmersives open={this.state.showCodeImmersives} closeModal={this.showSchool} />
+                    <SetonHall open={this.state.showSetonHall} closeModal={this.showSchool} />
+                    <UCC open={this.state.showUCC} closeModal={this.showSchool} />
                 </div>
-                <div style={styles.centerContent}>
-                    <div id="showCodeImmersives" style={styles.cursor} onClick={this.showSchool}>
-                        <h2 id="showCodeImmersives" onClick={this.showSchool}>--- Code Immersives NYC ---</h2>
-                        <p id="showCodeImmersives" onClick={this.showSchool} style={styles.description}>Web Developer Certification</p>
+                <div style={styles.main}>
+                    <div style={styles.centerTop}>
+                        <h1 style={styles.title}>Education</h1>
                     </div>
-                    <div id="showSetonHall" style={styles.cursor} onClick={this.showSchool}>
-                        <h2 id="showSetonHall" onClick={this.showSchool}>--- Seton Hall University ---</h2>
-                        <p id="showSetonHall" onClick={this.showSchool} style={styles.description}>BA in Criminal Justice</p>
+                    <div style={styles.centerContent}>
+                        <p>(Click item to expand)</p>
+                        <div id="showCodeImmersives" style={styles.cursor} onClick={this.showSchool}>
+                            <h2 id="showCodeImmersives" onClick={this.showSchool}>--- Code Immersives NYC ---</h2>
+                            <p id="showCodeImmersives" onClick={this.showSchool} style={styles.description}>Web Developer Certification</p>
+                        </div>
+                        <div id="showSetonHall" style={styles.cursor} onClick={this.showSchool}>
+                            <h2 id="showSetonHall" onClick={this.showSchool}>--- Seton Hall University ---</h2>
+                            <p id="showSetonHall" onClick={this.showSchool} style={styles.description}>BA in Criminal Justice</p>
+                        </div>
+                        <div id="showUCC" style={styles.cursor} onClick={this.showSchool}>
+                            <h2 id="showUCC" onClick={this.showSchool}>--- Union County College ---</h2>
+                            <p id="showUCC" onClick={this.showSchool} style={styles.description}>AS in Criminal Justice</p>
+                        </div>
                     </div>
-                    <div id="showUCC" style={styles.cursor} onClick={this.showSchool}>
-                        <h2 id="showUCC" onClick={this.showSchool}>--- Union County College ---</h2>
-                        <p id="showUCC" onClick={this.showSchool} style={styles.description}>AS in Criminal Justice</p>
+                    <div style={styles.imgArea}>
+                        <img src={brindleSchool} style={styles.rightImg} alt="Bitmoji of Brindle at school" />
                     </div>
                 </div>
-                <div style={styles.imgArea}>
-                    <img src={brindleSchool} style={styles.rightImg} alt="Bitmoji of Brindle at school" />
-                </div>
-            </div>
             </>
         )
     }

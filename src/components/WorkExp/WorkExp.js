@@ -40,55 +40,56 @@ export default class WorkExp extends Component {
     render() {
         return (
             <>
-            <div style={styles.main}>
-                <div style={styles.center}>
-                    <h1 style={styles.title}>Work Experience</h1>
-                    <br />
-                    <img id="freelance" src={fullStackJob} alt="A dog sitting at a lap top coding" onClick={this.showJob} style={styles.jobClick}/>
-                    {/* <h2 id="freelance" style={styles.jobClick} onClick={this.showJob}>--- Full-Stack Web Developer ---</h2> */}
+                <div style={styles.main}>
+                    <div style={styles.center}>
+                        <h1 style={styles.title}>Work Experience</h1>
+                        <br />
+                        <p style={styles.expand}>(Click image to expand)</p>
+                        <img id="freelance" src={fullStackJob} alt="A dog sitting at a lap top coding" onClick={this.showJob} style={styles.jobClick} />
+                        {/* <h2 id="freelance" style={styles.jobClick} onClick={this.showJob}>--- Full-Stack Web Developer ---</h2> */}
                         {this.state.freelance ?
-                        <Freelance
-                            closeButton={this.closeButton}
-                            id={"freelance"}
-                        />
-                        :
-                        ''
+                            <Freelance
+                                closeButton={this.closeButton}
+                                id={"freelance"}
+                            />
+                            :
+                            ''
                         }
-                    
-                    <img id="sis" src={sisJob} alt="SIS company logo with job title" onClick={this.showJob} style={styles.jobClick} />
+
+                        <img id="sis" src={sisJob} alt="SIS company logo with job title" onClick={this.showJob} style={styles.jobClick} />
                         {this.state.sis ?
-                        <SIS
-                            closeButton={this.closeButton}
-                            id={"sis"}
-                        />
-                        :
-                        ''
+                            <SIS
+                                closeButton={this.closeButton}
+                                id={"sis"}
+                            />
+                            :
+                            ''
                         }
 
-                    <img id="tag" src={tagJob} alt="TAG Heuer company logo with job title" onClick={this.showJob} style={styles.jobClick} />
+                        <img id="tag" src={tagJob} alt="TAG Heuer company logo with job title" onClick={this.showJob} style={styles.jobClick} />
                         {this.state.tag ?
-                        <TagHeuer
-                            closeButton={this.closeButton}
-                            id={"tag"}
-                        />
-                        :
-                        ''
+                            <TagHeuer
+                                closeButton={this.closeButton}
+                                id={"tag"}
+                            />
+                            :
+                            ''
                         }
 
-                    <img id="army" src={armyJob} alt="Brindle in combat uniform with job title" onClick={this.showJob} style={styles.jobClick} />
+                        <img id="army" src={armyJob} alt="Brindle in combat uniform with job title" onClick={this.showJob} style={styles.jobClick} />
                         {this.state.army ?
-                        <Army
-                            closeButton={this.closeButton}
-                            id={"army"}
-                        />
-                        :
-                        ''
+                            <Army
+                                closeButton={this.closeButton}
+                                id={"army"}
+                            />
+                            :
+                            ''
                         }
+                    </div>
+                    <div style={styles.imgArea}>
+                        <img style={styles.rightImg} src={brindleCoffee} alt='' />
+                    </div>
                 </div>
-                <div style={styles.imgArea}>
-                    <img style={styles.rightImg} src={brindleCoffee} alt='' />
-                </div>
-            </div>
             </>
         )
     }
@@ -125,5 +126,8 @@ const styles = {
     },
     rightImg: {
         width: '100%'
+    },
+    expand: {
+        margin: '0 0 0 0'
     }
 }

@@ -33,6 +33,7 @@ export default class EducationMobile extends Component {
                 <p>Having both a certification as a Full Stack Web Developer and a Bachelor's of Arts / Associate's of Science Degree in Criminal Justice, my well-rounded education gives me the technical, social, practical know-how to deliver high quality products. Click below to get more information...</p>
                 <br />
                 <br />
+                <p style={{ textAlign: 'center' }}>(Click item to expand)</p>
 
                 <div style={{ textAlign: 'center' }}>
                     <p><b>Code Immersives - NYC</b></p>

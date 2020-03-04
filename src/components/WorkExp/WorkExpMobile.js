@@ -33,6 +33,7 @@ export default class WorkExpMobile extends Component {
                     Work Experience
                 </h1>
                 <p style={{ marginBottom: '7vh' }}>Find out more about my past work experience and professional achievements.</p>
+                <p style={styles.expand}>(Click image to expand)</p>
 
                 <img id="showFreelance" onClick={this.showJob} src={fullStackJob} style={styles.jobImg} alt="Full stack job experience logo" />
 
@@ -74,5 +75,8 @@ const styles = {
         width: '100%',
         borderRadius: '5px',
         marginBottom: '8vh'
+    },
+    expand: {
+        textAlign: 'center'
     }
 }
