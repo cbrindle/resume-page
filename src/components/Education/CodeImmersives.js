@@ -33,7 +33,7 @@ export default class CodeImmersives extends Component {
                             </div>
                             <div>
                                 <p><u>Certifications</u></p>
-                                <p>Full-Stack Web Developer, AWS</p>
+                                <p>Full-Stack Web Developer</p>
                             </div>
                         </div>
                         <div style={styles.contentRight}>
