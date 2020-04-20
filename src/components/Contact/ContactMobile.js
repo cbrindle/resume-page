@@ -13,7 +13,7 @@ export default class ContactMobile extends Component {
 
                 <p>Thank you for visiting my resume page. Feel free to contact me anytime at the contact information listed above. If you want to learn more about me in the meantime, you can follow the links at the bottom of the page to my LinkedIn page, Github Repo, and to Tales from Swiftfell (a browser-based role-playing game I created).</p>
 
-                <p style={{ textAlign: 'center' }}>You can also <a href="https://drive.google.com/open?id=1xJBu1GWLXfmCE0WeWbP_KxTE_4n3tjqB" download>Click Here</a> to download a one-page, PDF version of my resume.</p>
+                <p style={{ textAlign: 'center' }}>You can also <a href="https://drive.google.com/open?id=14rcJV5oQr3JidlN0aIagzQaBrqt5H1Rb" download>Click Here</a> to download a one-page, PDF version of my resume.</p>
 
                 <div style={styles.iconSection}>
                     <FaLinkedin size={48} color={'blue'} onClick={() => window.open('https://www.linkedin.com/in/christopherbrindle/', "_blank")} />
