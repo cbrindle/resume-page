@@ -28,7 +28,7 @@ export default class Contact extends Component {
                 <div style={styles.linkArea}>
                     <FaLinkedin size={48} color={'blue'} style={styles.linksIcon} onClick={() => window.open('https://www.linkedin.com/in/christopherbrindle/', "_blank")} />
                     <FaGithub size={48} style={styles.linksIcon} onClick={() => window.open('https://github.com/cbrindle', "_blank")} />
-                    <GiCastle size={48} color={'maroon'} style={styles.linksIcon} onClick={() => window.open('https://tfs-chapter1.herokuapp.com/', "_blank")} />
+                    <GiCastle size={48} color={'maroon'} style={styles.linksIcon} onClick={() => window.open('http://swiftfell.com', "_blank")} />
                 </div>
             </div>
         )

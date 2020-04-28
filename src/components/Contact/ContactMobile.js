@@ -18,7 +18,7 @@ export default class ContactMobile extends Component {
                 <div style={styles.iconSection}>
                     <FaLinkedin size={48} color={'blue'} onClick={() => window.open('https://www.linkedin.com/in/christopherbrindle/', "_blank")} />
                     <FaGithub size={48} onClick={() => window.open('https://github.com/cbrindle', "_blank")} />
-                    <GiCastle size={48} color={'maroon'} onClick={() => window.open('https://tfs-chapter1.herokuapp.com/', "_blank")} />
+                    <GiCastle size={48} color={'maroon'} onClick={() => window.open('http://swiftfell.com', "_blank")} />
                 </div>
 
 
