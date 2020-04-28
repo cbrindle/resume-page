@@ -20,11 +20,11 @@ export default class Projects extends Component {
                         <div style={styles.projectTextBottom}>
                             <ul className="project-listItems">
                                 <li>Full Stack Web app - game runs entirely in browser</li>
-                                <li>EJS / Javascript Coding for Front-End</li>
+                                <li>React with Redux frontend framework</li>
                                 <li>Database maintained with MongoDB</li>
                             </ul>
-                            <p>Website: <a href="http://tfs-chapter1.herokuapp.com" target="_blank" rel="noopener noreferrer">Tales from Swiftfell</a></p>
-                            <p>Github Repo: <a href="https://github.com/cbrindle/tales-from-swiftfell" target="_blank" rel="noopener noreferrer">Click Here</a></p>
+                            <p>Website: <a href="http://swiftfell.com" target="_blank" rel="noopener noreferrer">Tales from Swiftfell</a></p>
+                            <p>Github Repo: <a href="https://github.com/cbrindle/tfs2-frontend" target="_blank" rel="noopener noreferrer">Click Here</a></p>
                         </div>
                         <div style={styles.projectImgSection}>
                             <img src={tfsProjectImg} style={styles.projectImg} alt="Tales from Swiftfell landing page logo" />

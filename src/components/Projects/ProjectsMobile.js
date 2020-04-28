@@ -27,8 +27,8 @@ export default class ProjectsMobile extends Component {
                             <li>EJS / Javascript Coding for Front-End</li>
                             <li>Database maintained with MongoDB</li>
                         </ul>
-                        <p>Website: <a href="http://tfs-chapter1.herokuapp.com" target="_blank" rel="noopener noreferrer">Tales from Swiftfell</a></p>
-                        <p>Github Repo: <a href="https://github.com/cbrindle/tales-from-swiftfell" target="_blank" rel="noopener noreferrer">Click Here</a></p>
+                        <p>Website: <a href="http://swiftfell.com" target="_blank" rel="noopener noreferrer">Tales from Swiftfell</a></p>
+                        <p>Github Repo: <a href="https://github.com/cbrindle/tfs2-frontend" target="_blank" rel="noopener noreferrer">Click Here</a></p>
                     </div>
                 </div>
 
